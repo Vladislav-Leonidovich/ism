@@ -1,6 +1,7 @@
 Project Name: ISM
+
 Overview
-The ISM project is designed to handle various functionalities within a software system. It includes multiple components and features that are structured to provide an efficient and scalable solution.
+  - The ISM project is designed to handle various functionalities within a software system. It includes multiple components and features that are structured to provide an efficient and scalable solution.
 
 Features
   - Modular Architecture: The project is organized into different modules to enhance maintainability and scalability.
