@@ -14,8 +14,9 @@ Directory Structure
   - /wwwroot: Static files including fonts and stylesheets.
     
 Platform and Frameworks
-  - Platform: .NET
+  - Platform: .NET Core 8.0
   - Frameworks: ASP.NET Core, Blazor, Entity Framework Core
+  - Database: MS SQL Server 2022
     
 Getting Started
   1. Clone the repository:
