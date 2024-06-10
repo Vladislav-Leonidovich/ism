@@ -11,9 +11,11 @@ Directory Structure
   - /lpnu: Contains resources, views, and other critical components for the application.
   - /bin: Binary files for debugging and runtime configurations.
   - /wwwroot: Static files including fonts and stylesheets.
+    
 Platform and Frameworks
   - Platform: .NET
   - Frameworks: ASP.NET Core, Blazor, Entity Framework Core
+    
 Getting Started
   1. Clone the repository:
       git clone https://github.com/Vladislav-Leonidovich/ism.git
@@ -21,6 +23,7 @@ Getting Started
       cd ism
   3. Install dependencies (if any).
   4. Build and run the project.
+     
 Contribution
   - Fork the repository.
   - Create a new branch.
