@@ -1,0 +1,39 @@
+﻿@model lpnu.Models.LoginViewModel
+
+@{
+	ViewData["Title"] = "Login";
+}
+
+<div class="login-container">
+	<div class="inner-container">
+		@if (User.Identity.IsAuthenticated)
+		{
+			<h3 class="login-title">Administrator</h3>
+			<h3 class="login-title">@User.Identity.Name</h3>
+			<form asp-controller="Account" asp-action="Logout" method="post">
+				<div class="button-group">
+					<button type="submit" class="btn btn-primary">Logout</button>
+				</div>
+			</form>
+		}
+		else
+		{
+			<h3 class="login-title">Login</h3>
+			<form asp-controller="Account" asp-action="Login" method="post">
+				<div class="form-group">
+					<label asp-for="Username">Username</label>
+					<input asp-for="Username" class="form-control" />
+					<span asp-validation-for="Username" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Password">Password</label>
+					<input asp-for="Password" class="form-control" type="password" />
+					<span asp-validation-for="Password" class="text-danger"></span>
+				</div>
+				<div class="button-group">
+					<button type="submit" class="btn btn-primary">Log in</button>
+				</div>
+			</form>
+		}
+	</div>
+</div>

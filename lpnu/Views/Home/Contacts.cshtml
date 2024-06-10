@@ -1,0 +1,56 @@
+﻿@model IEnumerable<lpnu.Models.Contact>
+@{
+	ViewData["Title"] = "Contacts";
+}
+<div class="wrapper-stuff">
+	<div class="content-title">
+		<h3>@Localizer["ContactsTitle"]</h3>
+		<img src="~/img/IndexIcons/User2.png" class="content-title-icon" />
+	</div>
+	@if (User.Identity.IsAuthenticated)
+	{
+		<a asp-controller="Home" asp-action="CreateItemForContact" class="btn btn-primary">+ Add New Contact</a>
+	}
+	<div class="styled-table-wrapper">
+		<table class="styled-table">
+			<thead>
+				<tr>
+					<th>@Localizer["Audience"]</th>
+					<th>@Localizer["Employees"]</th>
+				</tr>
+			</thead>
+			<tbody style="background-color:white">
+				@foreach (var contact in Model)
+				{
+					<tr>
+						<td class="audience-box">
+							@contact.EducationalBuilding,<br />
+							@contact.Room,<br />
+							@contact.PhoneNumber
+						</td>
+						<td class="employees-box">
+							@foreach (var name in contact.StuffNames)
+							{
+								<div>@name<br /></div>
+							}
+							@if (User.Identity.IsAuthenticated)
+							{
+								<div class="form-actions-group">
+									<a asp-action="DeleteItemForContact" asp-route-id="@contact.Id" class="delete-link">Delete</a>
+									<a asp-action="EditItemForContact" asp-route-id="@contact.Id" class="edit-link">Edit</a>
+								</div>
+							}
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+	<div class="location-group">
+		<h4 style="color:black">@Localizer["Location"]</h4>
+		<p style="color:black">
+			@Localizer["LocationSubtitle"]
+		</p>
+	</div>
+
+</div>

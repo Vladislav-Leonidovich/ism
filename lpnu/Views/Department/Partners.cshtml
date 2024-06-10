@@ -1,0 +1,46 @@
+﻿@model IEnumerable<lpnu.Models.Partner>
+@{
+	ViewData["Title"] = "Partners";
+}
+<div class="wrapper-stuff">
+	<div class="content-title">
+		<h3>@Localizer["PartnersTitle"]</h3>
+		<img src="~/img/IndexIcons/People.png" class="content-title-icon" />
+	</div>
+	<p>
+		@if (User.Identity.IsAuthenticated)
+		{
+			<a asp-controller="Department" asp-action="CreateItemForPartner" class="btn btn-primary">+ Add New Partner</a>
+		}
+	</p>
+	@foreach (var partner in Model)
+	{
+		<div class="partners-card">
+			<a href="@partner.WebsiteURL" target="_blank" class="partners-link">
+				<img src="@partner.LogoPath" alt="Photo of @partner.CompanyName" class="partners-photo">
+			</a>
+			<h4 class="partners-name">@partner.CompanyName</h4>
+			<p class="partners-description">@partner.Description</p>
+			@if (User.Identity.IsAuthenticated)
+			{
+				<div class="form-actions-group">
+					<a asp-action="DeleteItemForPartner" asp-route-id="@partner.Id" class="delete-link">Delete</a>
+					<a asp-action="EditItemForPartner" asp-route-id="@partner.Id" class="edit-link">Edit</a>
+				</div>
+			}
+		</div>
+	}
+</div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		const descriptions = document.querySelectorAll('.partners-description');
+
+		descriptions.forEach(desc => {
+			const urlRegex = /(https?:\/\/[^\s]+)/g;
+			desc.innerHTML = desc.textContent.replace(urlRegex, (url) => {
+				return `<a href="${url}" target="_blank" class="partners-link">${url}</a>`;
+			});
+		});
+	});
+</script>

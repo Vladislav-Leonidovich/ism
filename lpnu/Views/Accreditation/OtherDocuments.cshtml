@@ -1,0 +1,42 @@
+﻿@model lpnu.Models.AllAccreditationProgramsViewModel
+@using System.IO
+
+@{
+	ViewData["Title"] = "Other Documents";
+}
+
+<div class="wrapper-stuff">
+	<div class="content-title">
+		<h3>@Localizer["DocumentsTitle"]</h3>
+		<img src="~/img/IndexIcons/Documents.png" class="content-title-icon" />
+	</div>
+	<ol class="acc-program-container">
+		@foreach (var programWithDocuments in Model.ProgramsWithDocuments)
+		{
+			<li class="acc-program-block" id="acc-program-block-@programWithDocuments.Program.Id">
+				<div class="acc-program-title">@programWithDocuments.Program.Title</div>
+				<div class="acc-program-documents">
+					<ul>
+						@foreach (var document in programWithDocuments.OtherDocuments)
+						{
+							<li>
+								<a href="~/@document.FilePath" target="_blank">@document.Description</a>
+							</li>
+						}
+					</ul>
+					@if (User.Identity.IsAuthenticated)
+					{
+						<div class="form-actions-group">
+							<a asp-action="EditItemForAccreditationProgram" asp-route-id="@programWithDocuments.Program.Id" class="btn edit-link">Edit</a>
+							<a asp-action="DeleteItemForAccreditationProgram" asp-route-id="@programWithDocuments.Program.Id" class="btn btn-danger">Delete</a>
+						</div>
+					}
+				</div>
+			</li>
+		}
+	</ol>
+</div>
+
+@section Scripts {
+	<script src="~/js/programs.js"></script>
+}

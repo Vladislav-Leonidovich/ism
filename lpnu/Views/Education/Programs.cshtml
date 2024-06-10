@@ -1,0 +1,28 @@
+﻿@{
+	ViewData["Title"] = "Programs";
+}
+<div class="wrapper-stuff">
+	<div class="content-title">
+		<h3>@Localizer["EducationalProgramsTitle"]</h3>
+		<img src="~/img/IndexIcons/Library.png" class="content-title-icon" />
+	</div>
+	@if (User.Identity.IsAuthenticated)
+	{
+		<a asp-controller="Education" asp-action="CreateItemForEducationProgram" class="btn btn-primary">+ Add New Education Program</a>
+	}
+	<div class="education-program-group">
+		<a asp-controller="Education" asp-action="Bachelor" class="education-program-card education-card-1">
+			<p class="education-card-title">@Localizer["BachelorDegree"]</p>
+			<img src="~/img/IndexIcons/StudentCenter1.png" class="education-card-icon" />
+		</a>
+	</div>
+	<a asp-controller="Education" asp-action="Master" class="education-program-card education-card-2">
+		<p class="education-card-title">@Localizer["MasterDegree"]</p>
+		<img src="~/img/IndexIcons/StudentCenter2.png" class="education-card-icon" />
+	</a>
+	<a asp-controller="Education" asp-action="Phd" class="education-program-card education-card-3">
+		<p class="education-card-title">@Localizer["PostgraduateStudies"]</p>
+		<img src="~/img/IndexIcons/StudentCenter3.png" class="education-card-icon" />
+	</a>
+</div>
+</div>

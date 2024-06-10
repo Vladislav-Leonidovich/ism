@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\lpnu.bundle.scp.css",
+      "PackagePath": "staticwebassets\\lpnu.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Authorization.css",
+      "PackagePath": "staticwebassets\\css\\Authorization.css"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Education.css",
+      "PackagePath": "staticwebassets\\css\\Education.css"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Menu.css",
+      "PackagePath": "staticwebassets\\css\\Menu.css"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Reset.css",
+      "PackagePath": "staticwebassets\\css\\Reset.css"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Site.css",
+      "PackagePath": "staticwebassets\\css\\Site.css"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Stuff.css",
+      "PackagePath": "staticwebassets\\css\\Stuff.css"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\fonts\\Mister.woff",
+      "PackagePath": "staticwebassets\\fonts\\Mister.woff"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\fonts\\Mister.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Mister.woff2"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\fonts\\demo.html",
+      "PackagePath": "staticwebassets\\fonts\\demo.html"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\fonts\\stylesheet.css",
+      "PackagePath": "staticwebassets\\fonts\\stylesheet.css"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\ActivityHistory.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\ActivityHistory.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\AdministratorMaleGreen.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\AdministratorMaleGreen.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\AdministratorMaleYellow.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\AdministratorMaleYellow.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\AroundtheGlobe.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\AroundtheGlobe.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Arrow1.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Arrow1.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Bookmark.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Bookmark.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Certificate.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Certificate.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Detective.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Detective.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Documents.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Documents.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Education.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Education.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\GraduationCap.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\GraduationCap.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\GraduationScroll.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\GraduationScroll.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Hierarchy.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Hierarchy.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\IMG_9706.JPG",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\IMG_9706.JPG"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Info.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Info.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Library.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Library.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\People.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\People.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Picture.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Picture.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\ProfPhoto.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\ProfPhoto.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\StudentCenter1.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\StudentCenter1.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\StudentCenter2.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\StudentCenter2.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\StudentCenter3.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\StudentCenter3.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Teamwork.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Teamwork.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\University.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\University.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Upscales.ai_1711442807160.jpeg",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Upscales.ai_1711442807160.jpeg"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Upscales.ai_1711633045965.jpeg",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Upscales.ai_1711633045965.jpeg"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\User.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\User.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\User2.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\User2.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Users.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Users.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\Warranty.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\Warranty.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\background.JPG",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\background.JPG"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\nulposin.jpg",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\nulposin.jpg"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\pexels-photo-1181675.jpeg",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\pexels-photo-1181675.jpeg"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\pexels-photo-693859.jpeg",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\pexels-photo-693859.jpeg"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\photo_2024-02-28_14-18-32.jpg",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\photo_2024-02-28_14-18-32.jpg"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\photo_2024-02-28_14-23-45.jpg",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\photo_2024-02-28_14-23-45.jpg"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\photo_2024-02-28_18-28-12 2.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\photo_2024-02-28_18-28-12 2.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\photo_2024-02-28_18-28-12 2313.png",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\photo_2024-02-28_18-28-12 2313.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\IndexIcons\\photo_2024-02-29_15-53-08.jpg",
+      "PackagePath": "staticwebassets\\img\\IndexIcons\\photo_2024-02-29_15-53-08.jpg"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\btnIcons\\ForwardButton.png",
+      "PackagePath": "staticwebassets\\img\\btnIcons\\ForwardButton.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\btnIcons\\ForwardButtonGrey.png",
+      "PackagePath": "staticwebassets\\img\\btnIcons\\ForwardButtonGrey.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\btnIcons\\ForwardButtonHover.png",
+      "PackagePath": "staticwebassets\\img\\btnIcons\\ForwardButtonHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\Close.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\Close.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\CloseHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\CloseHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\EarthPlanet.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\EarthPlanet.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\EarthPlanetHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\EarthPlanetHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\Email.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\Email.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\EmailHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\EmailHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\ExpandArrow.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\ExpandArrow.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\ExpandArrowHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\ExpandArrowHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\Facebook.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\Facebook.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\FacebookHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\FacebookHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\Instagram.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\Instagram.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\InstagramHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\InstagramHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\LinkedIn.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\LinkedIn.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\LinkedInHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\LinkedInHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\Logo.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\LogoHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\LogoHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\LogoWhite.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\LogoWhite.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\Menu.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\Menu.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\MenuHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\MenuHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\Phone.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\Phone.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\PhoneHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\PhoneHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\PlaceMarker.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\PlaceMarker.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\PlaceMarkerHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\PlaceMarkerHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\QR.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\QR.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\Telegram.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\Telegram.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\TelegramHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\TelegramHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\WhiteLogoHover.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\WhiteLogoHover.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\icons8-menu-30.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\icons8-menu-30.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\img\\layoutIcons\\icons8-menu-60.png",
+      "PackagePath": "staticwebassets\\img\\layoutIcons\\icons8-menu-60.png"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\___124_-___\\69f97f5f-b8da-456c-950e-ed8838f20481_bkr_126_2021.pdf",
+      "PackagePath": "staticwebassets\\uploads\\___124_-___\\69f97f5f-b8da-456c-950e-ed8838f20481_bkr_126_2021.pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\___124_-___\\722e04d1-fa33-4141-83f4-18be73f8ae02_nakaz_eg_126_2_op.pdf",
+      "PackagePath": "staticwebassets\\uploads\\___124_-___\\722e04d1-fa33-4141-83f4-18be73f8ae02_nakaz_eg_126_2_op.pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\___124_-___\\861fa7c7-1b15-49f3-8675-30f51a9c3a03_bkr_126_2021 (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\___124_-___\\861fa7c7-1b15-49f3-8675-30f51a9c3a03_bkr_126_2021 (1).pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\___124_-___\\a295e535-9c83-477b-84c9-14b1f3528dd7_so.pdf",
+      "PackagePath": "staticwebassets\\uploads\\___124_-___\\a295e535-9c83-477b-84c9-14b1f3528dd7_so.pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\___124_-___\\a7f87384-b9e0-4922-b45d-123345b2f693_bkr_126_2021 (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\___124_-___\\a7f87384-b9e0-4922-b45d-123345b2f693_bkr_126_2021 (1).pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\___124_-___\\d96f1b83-e45d-42c7-b5f0-c30f143347f9_opp-2017-intelektualni-inormaciyni-tekhnologii_2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\___124_-___\\d96f1b83-e45d-42c7-b5f0-c30f143347f9_opp-2017-intelektualni-inormaciyni-tekhnologii_2.pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\____126_-_____\\23455a2e-dcc7-4fa8-b5f0-ee0b42e75d89_opp-2017-intelektualni-inormaciyni-tekhnologii_2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\____126_-_____\\23455a2e-dcc7-4fa8-b5f0-ee0b42e75d89_opp-2017-intelektualni-inormaciyni-tekhnologii_2.pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\____126_-_____\\3cc22a68-4898-4185-b069-ec12ed99129c_nakaz_eg_126_2_op.pdf",
+      "PackagePath": "staticwebassets\\uploads\\____126_-_____\\3cc22a68-4898-4185-b069-ec12ed99129c_nakaz_eg_126_2_op.pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\____126_-_____\\6767d6ea-2c5b-42ce-9fe2-5a25f1e518f7_opp-2017-intelektualni-inormaciyni-tekhnologii_2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\____126_-_____\\6767d6ea-2c5b-42ce-9fe2-5a25f1e518f7_opp-2017-intelektualni-inormaciyni-tekhnologii_2.pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\____126_-_____\\882b0cb8-9537-4a7e-b00b-ca013d5b7951_nakaz_eg_126_2_op.pdf",
+      "PackagePath": "staticwebassets\\uploads\\____126_-_____\\882b0cb8-9537-4a7e-b00b-ca013d5b7951_nakaz_eg_126_2_op.pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\ОНПІнформаційнісистемитатехнологіїмагістр\\0b27d755-297c-4c69-b320-80900775894f_bkr_126_2021.pdf",
+      "PackagePath": "staticwebassets\\uploads\\ОНПІнформаційнісистемитатехнологіїмагістр\\0b27d755-297c-4c69-b320-80900775894f_bkr_126_2021.pdf"
+    },
+    {
+      "Id": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\uploads\\ОНПІнформаційнісистемитатехнологіїмагістр\\682809bf-6897-4088-94de-7add7b87729e_opp-2017-intelektualni-inormaciyni-tekhnologii_2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\ОНПІнформаційнісистемитатехнологіїмагістр\\682809bf-6897-4088-94de-7add7b87729e_opp-2017-intelektualni-inormaciyni-tekhnologii_2.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.lpnu.props",
+      "PackagePath": "build\\lpnu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.lpnu.props",
+      "PackagePath": "buildMultiTargeting\\lpnu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.lpnu.props",
+      "PackagePath": "buildTransitive\\lpnu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.lpnu.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

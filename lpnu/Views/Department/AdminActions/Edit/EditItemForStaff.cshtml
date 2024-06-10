@@ -1,0 +1,40 @@
+﻿@model lpnu.Models.Professor
+
+@{
+	ViewData["Title"] = "Edit Teacher";
+}
+<div class="form-container">
+	<h2>Edit Teacher</h2>
+	<form asp-action="EditItemForStaff" method="post">
+		<input type="hidden" asp-for="Id" />
+		<div>
+			<label asp-for="FirstName">First Name</label>
+			<input asp-for="FirstName" class="form-control" />
+			<span asp-validation-for="FirstName" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="LastName">Last Name</label>
+			<input asp-for="LastName" class="form-control" />
+			<span asp-validation-for="LastName" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="Patronymic">Patronymic</label>
+			<input asp-for="Patronymic" class="form-control" />
+			<span asp-validation-for="Patronymic" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="ProfilePath">Profile URL</label>
+			<input asp-for="ProfilePath" class="form-control" />
+			<span asp-validation-for="ProfilePath" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="PhotoPath">Photo URL</label>
+			<input asp-for="PhotoPath" class="form-control" />
+			<span asp-validation-for="PhotoPath" class="text-danger"></span>
+		</div>
+		<div class="btn-group">
+			<a asp-action="Staff" class="btn btn-secondary">Cancel</a>
+			<button type="submit" class="btn btn-success">Update</button>
+		</div>
+	</form>
+</div>

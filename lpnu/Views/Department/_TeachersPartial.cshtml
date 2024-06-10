@@ -1,0 +1,44 @@
+﻿@model PaginatedList<lpnu.Models.Professor>
+
+<div class="teacher-grid">
+    @foreach (var item in Model)
+    {
+        <div class="teacher-card">
+            <a href="@item.ProfilePath" target="_blank"><img src="@item.PhotoPath" alt="Teacher Photo" class="teacher-photo"></a>
+            <a href="@item.ProfilePath" class="teacher-name" target="_blank">
+                @item.LastName @item.FirstName @item.Patronymic
+            </a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <div class="form-actions-group">
+                    <a asp-action="DeleteItemForStaff" asp-route-id="@item.Id" class="delete-link">Delete</a>
+                    <a asp-action="EditItemForStaff" asp-route-id="@item.Id" class="edit-link">Edit</a>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<div class="pager">
+    @if (Model.HasPreviousPage)
+    {
+        <a href="javascript:void(0)" onclick="loadPage(@(Model.PageIndex - 1))">Previous</a>
+    }
+
+    @for (int i = 1; i <= Model.TotalPages; i++)
+    {
+        if (i == Model.PageIndex)
+        {
+            <span class="current-page">@i</span>
+        }
+        else
+        {
+            <a href="javascript:void(0)" onclick="loadPage(@i)">@i</a>
+        }
+    }
+
+    @if (Model.HasNextPage)
+    {
+        <a href="javascript:void(0)" onclick="loadPage(@(Model.PageIndex + 1))">Next</a>
+    }
+</div>

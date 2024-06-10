@@ -1,0 +1,108 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@using Microsoft.AspNetCore.Localization
+
+<nav class="nav-bar-mini">
+	<div class="nav-grid wrapper">
+		<div class="menu-container menu">
+			<button @onclick="ToggleMenu" class="menu-item">
+				<div class="menu-icon rotatable @rotationClass" id="@MenuCssIcon"></div>
+				<p class="menu-text">@MenuText</p>
+			</button>
+		</div>
+		<div class="menu-container logo">
+			<button @onclick="() => NavigateToHome()" class="logo"></button>
+		</div>
+		<div class="contacts-lang-container">
+			<div class="contacts">
+				<button @onclick="() => NavigateToContacts()" class="menu-item">
+					<div class="menu-icon" id="contacts"></div>
+					<p class="menu-text">Контакти</p>
+				</button>
+			</div>
+			<div class="lang">
+				<select class="menu-item">
+					<option value="uk">Укр</option>
+					<option value="en">Eng</option>
+				</select>
+			</div>
+		</div>
+	</div>
+</nav>
+<nav class="@MenuCssClass">
+	<div class="nav-grid wrapper">
+		<ul class="nav-bar-links">
+			<li class="nav-bar-title">Кафедра</li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToHome()" class="link-button">Головна</button></li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToStructure()" class="link-button">Структура</button></li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToStuff()" class="link-button">Колектив</button></li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToGallery()" class="link-button">Галерея</button></li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToPartners()" class="link-button">Партнери</button></li>
+		</ul>
+		<ul class="nav-bar-links">
+			<li class="nav-bar-title">Акредитація</li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToAccreditationPrograms()" class="link-button">Огляд програм</button></li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToOtherDocuments()" class="link-button">Документи</button></li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToAccreditationDocuments()" class="link-button">Процес акредитації</button></li>
+		</ul>
+		<ul class="nav-bar-links">
+			<li class="nav-bar-title">Навчання</li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToPrograms()" class="link-button">Освітні програми</button></li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToInternationalRelations()" class="link-button">Міжнародні зв'язки</button></li>
+			<li class="nav-bar-subtitle"><button @onclick="() => NavigateToHome()" class="link-button">Працевлаштування</button></li>
+		</ul>
+	</div>
+</nav>
+
+@code {
+	private bool IsMenuOpen { get; set; }
+	private bool firstToggle = false;
+	private string MenuCssClass => IsMenuOpen ? (firstToggle ? "nav-bar-full open-anim" : "nav-bar-full open") : (firstToggle ? "nav-bar-full close-anim" : "nav-bar-full close");
+	private string MenuCssIcon => IsMenuOpen ? "menu-open" : "menu";
+	private string MenuText => IsMenuOpen ? "Закрити" : "Меню";
+	private bool ShouldInvokeJs { get; set; }
+	private string rotationClass = "";
+
+	private void ToggleMenu()
+	{
+		var previousState = IsMenuOpen;
+		IsMenuOpen = !IsMenuOpen;
+		if (!firstToggle)
+		{
+			firstToggle = true;
+		}
+		ShouldInvokeJs = previousState != IsMenuOpen;
+		rotationClass = "";
+		StateHasChanged();
+	}
+
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		if (ShouldInvokeJs)
+		{
+			await JSRuntime.InvokeVoidAsync("toggleMenuState", IsMenuOpen);
+			ShouldInvokeJs = false;
+
+			await Task.Delay(50);
+
+			rotationClass = "rotate";
+			StateHasChanged();
+		}
+	}
+
+	// Методи навігації
+	private void NavigateToHome() => NavigationManager.NavigateTo("/Home/Index", forceLoad: true);
+	private void NavigateToContacts() => NavigationManager.NavigateTo("/Home/Contacts", forceLoad: true);
+	private void NavigateToStuff() => NavigationManager.NavigateTo("/Department/Stuff", forceLoad: true);
+	private void NavigateToStructure() => NavigationManager.NavigateTo("/Department/Structure", forceLoad: true);
+	private void NavigateToGallery() => NavigationManager.NavigateTo("/Department/Gallery", forceLoad: true);
+	private void NavigateToPartners() => NavigationManager.NavigateTo("/Department/Partners", forceLoad: true);
+	private void NavigateToAccreditationPrograms() => NavigationManager.NavigateTo("/Accreditation/AccreditationPrograms", forceLoad: true);
+	private void NavigateToAccreditationDocuments() => NavigationManager.NavigateTo("/Accreditation/AccreditationDocuments", forceLoad: true);
+	private void NavigateToOtherDocuments() => NavigationManager.NavigateTo("/Accreditation/OtherDocuments", forceLoad: true);
+	private void NavigateToPrograms() => NavigationManager.NavigateTo("/Education/Programs", forceLoad: true);
+	private void NavigateToInternationalRelations() => NavigationManager.NavigateTo("/Education/InternationalRelations", forceLoad: true);
+}

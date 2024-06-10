@@ -1,0 +1,106 @@
+﻿@model lpnu.Models.InternationalRelationsViewModel
+@{
+	ViewData["Title"] = "International Relations";
+
+	var halfCount = (int)Math.Ceiling(Model.Universities.Count() / 2.0);
+	var firstHalf = Model.Universities.Take(halfCount);
+	var secondHalf = Model.Universities.Skip(halfCount);
+}
+<div class="wrapper-stuff">
+	<div class="content-title">
+		<h3>@Localizer["InternationalRelationsTitle"]</h3>
+		<img src="~/img/IndexIcons/AroundtheGlobe.png" class="content-title-icon" />
+	</div>
+	<div class="block-wrapper">
+		<h4 style="color:black">@Localizer["CompanyBlockText"]</h4>
+		<p>
+			@if (User.Identity.IsAuthenticated)
+			{
+				<a asp-controller="Education" asp-action="CreateItemForCompany" class="btn btn-primary">+ Add New Company</a>
+			}
+		</p>
+		<div class="company-group">
+			@foreach (var company in Model.Companies)
+			{
+				<div class="company-card-group">
+					<div class="company-card">
+						<img src="@company.LogoPath" alt="Photo of @company.Name" class="company-logo">
+						<img src="@company.FlagPath" alt="Photo of flag" class="company-flag">
+					</div>
+					@if (User.Identity.IsAuthenticated)
+					{
+						<div class="form-actions-group">
+							<a asp-action="DeleteItemForCompany" asp-route-id="@company.Id" class="delete-link">Delete</a>
+							<a asp-action="EditItemForCompany" asp-route-id="@company.Id" class="edit-link">Edit</a>
+						</div>
+					}
+				</div>
+			}
+		</div>
+	</div>
+</div>
+<div class="block-wrapper-color">
+	<div class="wrapper-stuff">
+		<div class="block-wrapper">
+			<h4 class="block-title">@Localizer["UniversityBlockText"]</h4>
+			<p>
+				@if (User.Identity.IsAuthenticated)
+				{
+					<a asp-controller="Education" asp-action="CreateItemForUniversity" class="btn btn-primary">+ Add New University</a>
+				}
+			</p>
+			<div class="university-group">
+				@foreach (var university in firstHalf)
+				{
+					<div class="university-card-1">
+						<p class="university-title">@university.Name (@university.City, @university.Country)</p>
+					</div>
+					@if (User.Identity.IsAuthenticated)
+					{
+						<div class="form-actions-group">
+							<a asp-action="DeleteItemForUniversity" asp-route-id="@university.Id" class="delete-link">Delete</a>
+							<a asp-action="EditItemForUniversity" asp-route-id="@university.Id" class="edit-link">Edit</a>
+						</div>
+					}
+				}
+				@foreach (var university in secondHalf)
+				{
+					<div class="university-card-2">
+						<p class="university-title-reversed">@university.Name (@university.City, @university.Country)</p>
+					</div>
+					@if (User.Identity.IsAuthenticated)
+					{
+						<div class="form-actions-group">
+							<a asp-action="DeleteItemForUniversity" asp-route-id="@university.Id" class="delete-link">Delete</a>
+							<a asp-action="EditItemForUniversity" asp-route-id="@university.Id" class="edit-link">Edit</a>
+						</div>
+					}
+				}
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wrapper-stuff">
+	<div class="block-wrapper">
+		<h4 style="color:black">@Localizer["ConferenceBlockText"]</h4>
+		<p>
+			@if (User.Identity.IsAuthenticated)
+			{
+				<a asp-controller="Education" asp-action="CreateItemForConference" class="btn btn-primary">+ Add New Conference</a>
+			}
+		</p>
+		<ol class="conference-group">
+			@foreach (var conference in Model.Conferences)
+			{
+				<li class="conference-title">@conference.Title<span class="conference-abbr"> @conference.Abbreviation</span></li>
+				@if (User.Identity.IsAuthenticated)
+				{
+					<div class="form-actions-group">
+						<a asp-action="DeleteItemForConference" asp-route-id="@conference.Id" class="delete-link">Delete</a>
+						<a asp-action="EditItemForConference" asp-route-id="@conference.Id" class="edit-link">Edit</a>
+					</div>
+				}
+			}
+		</ol>
+	</div>
+</div>

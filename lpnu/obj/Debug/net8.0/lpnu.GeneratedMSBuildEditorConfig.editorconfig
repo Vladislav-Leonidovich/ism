@@ -1,0 +1,255 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = lpnu
+build_property.RootNamespace = lpnu
+build_property.ProjectDir = E:\MyWorkProj\ism\lpnu\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\MyWorkProj\ism\lpnu
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/MyWorkProj/ism/lpnu/Components/PaginatedList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmF0ZWRMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Components/Menu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-bwjddys8x0
+
+[E:/MyWorkProj/ism/lpnu/Views/Account/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Accreditation/AccreditationDocuments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjcmVkaXRhdGlvblxBY2NyZWRpdGF0aW9uRG9jdW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Accreditation/AccreditationPrograms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjcmVkaXRhdGlvblxBY2NyZWRpdGF0aW9uUHJvZ3JhbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Accreditation/AdminActions/Create/CreateItemForAccreditationProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjcmVkaXRhdGlvblxBZG1pbkFjdGlvbnNcQ3JlYXRlXENyZWF0ZUl0ZW1Gb3JBY2NyZWRpdGF0aW9uUHJvZ3JhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Accreditation/AdminActions/Delete/DeleteItemForAccreditationProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjcmVkaXRhdGlvblxBZG1pbkFjdGlvbnNcRGVsZXRlXERlbGV0ZUl0ZW1Gb3JBY2NyZWRpdGF0aW9uUHJvZ3JhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Accreditation/AdminActions/Edit/EditItemForAccreditationProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjcmVkaXRhdGlvblxBZG1pbkFjdGlvbnNcRWRpdFxFZGl0SXRlbUZvckFjY3JlZGl0YXRpb25Qcm9ncmFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Accreditation/OtherDocuments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjcmVkaXRhdGlvblxPdGhlckRvY3VtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Create/CreateItemForGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcQ3JlYXRlXENyZWF0ZUl0ZW1Gb3JHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Create/CreateItemForPartner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcQ3JlYXRlXENyZWF0ZUl0ZW1Gb3JQYXJ0bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Create/CreateItemForStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcQ3JlYXRlXENyZWF0ZUl0ZW1Gb3JTdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Create/CreateItemForStructure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcQ3JlYXRlXENyZWF0ZUl0ZW1Gb3JTdHJ1Y3R1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Delete/DeleteItemForGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcRGVsZXRlXERlbGV0ZUl0ZW1Gb3JHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Delete/DeleteItemForPartner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcRGVsZXRlXERlbGV0ZUl0ZW1Gb3JQYXJ0bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Delete/DeleteItemForStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcRGVsZXRlXERlbGV0ZUl0ZW1Gb3JTdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Delete/DeleteItemForStructure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcRGVsZXRlXERlbGV0ZUl0ZW1Gb3JTdHJ1Y3R1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Edit/EditItemForPartner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcRWRpdFxFZGl0SXRlbUZvclBhcnRuZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Edit/EditItemForStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcRWRpdFxFZGl0SXRlbUZvclN0YWZmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/AdminActions/Edit/EditItemForStructurePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZG1pbkFjdGlvbnNcRWRpdFxFZGl0SXRlbUZvclN0cnVjdHVyZVBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/Partners.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxQYXJ0bmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/Staff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxTdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/Structure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxTdHJ1Y3R1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/_GalleryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxfR2FsbGVyeVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Department/_TeachersPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxfVGVhY2hlcnNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Create/CreateItemForCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xDcmVhdGVcQ3JlYXRlSXRlbUZvckNvbXBhbnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Create/CreateItemForConference.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xDcmVhdGVcQ3JlYXRlSXRlbUZvckNvbmZlcmVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Create/CreateItemForEducationProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xDcmVhdGVcQ3JlYXRlSXRlbUZvckVkdWNhdGlvblByb2dyYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Create/CreateItemForUniversity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xDcmVhdGVcQ3JlYXRlSXRlbUZvclVuaXZlcnNpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Delete/DeleteItemForCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xEZWxldGVcRGVsZXRlSXRlbUZvckNvbXBhbnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Delete/DeleteItemForConference.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xEZWxldGVcRGVsZXRlSXRlbUZvckNvbmZlcmVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Delete/DeleteItemForEducationProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xEZWxldGVcRGVsZXRlSXRlbUZvckVkdWNhdGlvblByb2dyYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Delete/DeleteItemForUniversity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xEZWxldGVcRGVsZXRlSXRlbUZvclVuaXZlcnNpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Edit/EditItemForCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xFZGl0XEVkaXRJdGVtRm9yQ29tcGFueS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Edit/EditItemForConference.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xFZGl0XEVkaXRJdGVtRm9yQ29uZmVyZW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Edit/EditItemForEducationProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xFZGl0XEVkaXRJdGVtRm9yRWR1Y2F0aW9uUHJvZ3JhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/AdminActions/Edit/EditItemForUniversity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkbWluQWN0aW9uc1xFZGl0XEVkaXRJdGVtRm9yVW5pdmVyc2l0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/Bachelor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEJhY2hlbG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/InternationalRelations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEludGVybmF0aW9uYWxSZWxhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/Master.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXE1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/Phd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXFBoZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Education/Programs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXFByb2dyYW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Home/AdminActions/Create/CreateItemForContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkFjdGlvbnNcQ3JlYXRlXENyZWF0ZUl0ZW1Gb3JDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Home/AdminActions/Delete/DeleteItemForContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkFjdGlvbnNcRGVsZXRlXERlbGV0ZUl0ZW1Gb3JDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Home/AdminActions/Edit/EditItemForContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkFjdGlvbnNcRWRpdFxFZGl0SXRlbUZvckNvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Home/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Shared/_SelectLanguagePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWxlY3RMYW5ndWFnZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MyWorkProj/ism/lpnu/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7j5q45xy0y

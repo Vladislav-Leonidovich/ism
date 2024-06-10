@@ -1,0 +1,347 @@
+button[b-bwjddys8x0] {
+    background: none; /* Забираємо фоновий колір */
+    color: inherit; /* Колір тексту успадковується від батьківського елемента */
+    border: none; /* Видаляємо рамку */
+    padding: 0; /* Видаляємо внутрішні відступи */
+    margin: 0; /* Видаляємо зовнішні відступи */
+    font: inherit; /* Шрифт успадковується від батьківського елемента */
+    text-align: inherit; /* Вирівнювання тексту успадковується від батьківського елемента */
+    cursor: pointer; /* Курсор у вигляді вказівника, що показує, що це інтерактивний елемент */
+    -webkit-appearance: none; /* Видаляємо стандартне оформлення в Webkit-браузерах */
+    -moz-appearance: none; /* Видаляємо стандартне оформлення в Firefox */
+    appearance: none; /* Скидаємо стандартне оформлення для інших браузерів */
+}
+/* Верхня навігаційна панель*/
+.nav-bar-mini[b-bwjddys8x0] {
+    background-image: linear-gradient(to right, #74955E, #4E653E);
+    position: relative;
+    z-index: 2000;
+}
+
+    .nav-bar-mini > .nav-grid[b-bwjddys8x0] {
+        display: grid;
+        grid-template-areas:
+            "menu logo contacts-lang";
+        grid-template-columns: 1fr auto 1fr;
+        justify-items: center;
+        grid-column-gap: 1em;
+        padding: 3px;
+    }
+
+.wrapper[b-bwjddys8x0] {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.menu-container[b-bwjddys8x0] {
+    display: grid;
+    grid-template-columns: max-content max-content;
+}
+
+.contacts-lang-container[b-bwjddys8x0] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: flex-end;
+    grid-column-gap: 1em;
+}
+
+@keyframes rotate-animation-b-bwjddys8x0 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.rotatable[b-bwjddys8x0] {
+    cursor: pointer;
+    /* Убедитесь, что анимация не запущена изначально */
+}
+
+.rotate[b-bwjddys8x0] {
+    /* Применяется на короткое время, когда нужно запустить анимацию */
+    animation: rotate-animation-b-bwjddys8x0 1s forwards; /* 'forwards' сохранит конечное состояние после анимации */
+}
+
+.menu-item[b-bwjddys8x0] {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+
+.menu[b-bwjddys8x0] {
+    grid-area: menu;
+    justify-self: flex-start;
+}
+
+#menu[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/Menu.png');
+}
+
+#menu-open[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/Close.png');
+}
+
+.menu-item:hover #menu-open[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/CloseHover.png');
+}
+
+.menu-icon[b-bwjddys8x0] {
+    width: 40px; /* Задайте бажані розміри */
+    height: 40px;
+    background-size: contain; /* Покриває весь елемент, зберігаючи пропорції */
+    background-repeat: no-repeat;
+    transition: background-image 0.3s; /* Плавна зміна зображень */
+}
+
+.menu-text[b-bwjddys8x0] {
+    color: white;
+    transition: color 0.3s;
+}
+
+.menu-item:hover #menu[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/MenuHover.png'); /* Путь к исходному изображению логотипа */
+}
+
+.menu-item:hover .menu-text[b-bwjddys8x0] {
+    color: #FFC65A;
+}
+
+.logo[b-bwjddys8x0] {
+    grid-area: logo;
+    width: 130px; /* Задайте желаемые размеры */
+    height: 75px;
+    background-image: url('/img/layoutIcons/Logo.png'); /* Путь к исходному изображению логотипа */
+    background-size: contain; /* Покрывает весь элемент, сохраняя пропорции */
+    background-repeat: no-repeat;
+    transition: background-image 0.5s; /* Плавная смена изображений */
+}
+
+    .logo:hover[b-bwjddys8x0] {
+        background-image: url('/img/layoutIcons/LogoHover.png'); /* Путь к изображению логотипа при наведении */
+    }
+
+    .logo > a > img[b-bwjddys8x0] {
+        width: 100%;
+        max-width: 130px;
+    }
+
+.contacts[b-bwjddys8x0] {
+    grid-area: contacts;
+}
+
+#contacts[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/Phone.png');
+    width: 30px; /* Задайте бажані розміри */
+    height: 30px;
+}
+
+.menu-item:hover #contacts[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/PhoneHover.png'); /* Шлях до початкового шляху логотипа */
+}
+
+.lang[b-bwjddys8x0] {
+    grid-area: lang;
+}
+
+    .lang > .menu-item[b-bwjddys8x0] {
+        grid-template-columns: max-content max-content max-content;
+    }
+
+#earth[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/EarthPlanet.png');
+    width: 30px; /* Задайте бажані розміри */
+    height: 30px;
+}
+
+.menu-item:hover #earth[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/EarthPlanetHover.png'); /* Шлях до початкового шляху логотипа */
+}
+
+#arrow[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/ExpandArrow.png');
+    width: 20px; /* Задайте бажані розміри */
+    height: 20px;
+}
+
+.menu-item:hover #arrow[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/ExpandArrowHover.png'); /* Шлях до початкового шляху логотипа */
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .wrapper[b-bwjddys8x0] {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrapper[b-bwjddys8x0] {
+        max-width: none;
+        padding: 0px 5px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .nav-bar-mini > .nav-grid[b-bwjddys8x0] {
+        grid-template-areas:
+            "menu contacts lang";
+        grid-template-columns: 1fr 1fr 1fr; /* 3 фракції, логотип забраний */
+        justify-items: center;
+        align-items: center;
+        height: 75px;
+    }
+
+    .logo[b-bwjddys8x0] {
+        display: none;
+    }
+
+    .contacts-lang-container[b-bwjddys8x0] {
+        display: contents; /* Дозволяє дочірним елементам вести себе як діти .nav-grid */
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .contacts > .menu-item > p[b-bwjddys8x0] {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+/* Розгорнута навігаційна панель*/
+
+@keyframes slideDown-b-bwjddys8x0 {
+    from {
+        transform: translateY(-100%);
+        visibility: hidden;
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp-b-bwjddys8x0 {
+    from {
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-100%);
+        visibility: hidden;
+        opacity: 1;
+    }
+}
+
+.nav-bar-full[b-bwjddys8x0] {
+    background-image: linear-gradient(to right, #3D3A32, #524F46);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    display: none;
+    visibility: hidden;
+    opacity: 1;
+    z-index: 1000;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+    .nav-bar-full.open-anim[b-bwjddys8x0] {
+        display: block;
+        animation: slideDown-b-bwjddys8x0 0.3s forwards;
+    }
+
+
+    .nav-bar-full.close-anim[b-bwjddys8x0] {
+        display: block;
+        animation: slideUp-b-bwjddys8x0 0.3s forwards;
+    }
+
+    .nav-bar-full.open[b-bwjddys8x0] {
+        display: block;
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    .nav-bar-full.close[b-bwjddys8x0] {
+        display: block;
+        transform: translateY(-100%);
+        visibility: hidden;
+        opacity: 1;
+    }
+
+    .nav-bar-full > .nav-grid[b-bwjddys8x0] {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 0em;
+        align-items: start;
+        justify-items: center;
+        padding: 2em 0;
+        margin: 0 auto;
+    }
+
+    .nav-bar-full > .wrapper-bar > ul[b-bwjddys8x0] {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+.nav-bar-subtitle[b-bwjddys8x0] {
+    margin-bottom: 5px;
+}
+
+.nav-bar-full .nav-bar-links .nav-bar-subtitle .link-button[b-bwjddys8x0] {
+    color: #c6c5c3; /* Початковий колір посилань */
+    transition: color 0.3s; /* Плавна зміна кольору */
+}
+
+    .nav-bar-full .nav-bar-links .nav-bar-subtitle .link-button:hover[b-bwjddys8x0] {
+        color: #FFC65A; /* Колір посилань при наведенні */
+    }
+
+.nav-bar-title[b-bwjddys8x0] {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+    .nav-bar-full[b-bwjddys8x0] {
+        top: 74px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar-full > .nav-grid[b-bwjddys8x0] {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: max-content;
+        grid-row-gap: 2em;
+        align-items: center;
+        justify-items: start;
+        text-align: start;
+        padding: 2em 0;
+    }
+
+    .nav-bar-links[b-bwjddys8x0] {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-bar-title[b-bwjddys8x0] {
+        text-align: center;
+    }
+}

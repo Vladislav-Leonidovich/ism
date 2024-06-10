@@ -1,0 +1,21 @@
+﻿@model lpnu.Models.Photo
+@{
+	ViewData["Title"] = "Create Photo";
+}
+<div class="form-container">
+	<h2>Add New Photo</h2>
+
+	<form asp-action="CreateItemForGallery" method="post">
+		<div>
+			<label asp-for="Path">Photo URL</label>
+			<input asp-for="Path" class="form-control" />
+			<span asp-validation-for="Path" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="Description">Description (not required) </label>
+			<input asp-for="Description" class="form-control" value="ism Photo" />
+			<span asp-validation-for="Description" class="text-danger"></span>
+		</div>
+		<button type="submit">Submit</button>
+	</form>
+</div>

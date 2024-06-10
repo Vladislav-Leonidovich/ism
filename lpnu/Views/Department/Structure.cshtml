@@ -1,0 +1,35 @@
+﻿@model CreateItemForStructureViewModel
+@{
+	ViewData["Title"] = "Structure";
+}
+<div class="wrapper-stuff">
+	<div class="content-title">
+		<h3>@Localizer["StructureTitle"]</h3>
+		<img src="~/img/IndexIcons/Hierarchy.png" class="content-title-icon" />
+	</div>
+	<p>
+		@if (User.Identity.IsAuthenticated)
+		{
+			<a asp-controller="Department" asp-action="CreateItemForStructure" class="btn btn-primary">+ Add New Post</a>
+		}
+	</p>
+	<div class="post-group">
+		@foreach (var post in Model.Posts)
+		{
+			<div class="structure-card">
+				<img src="@post.PhotoPath" alt="Photo of @post.ProfessorName" class="professor-photo">
+				<h4 class="professor-name">@post.ProfessorName</h4>
+				<p class="professor-position">@post.Position</p>
+				<p class="professor-description">@post.Description</p>
+				@if (User.Identity.IsAuthenticated)
+				{
+					<p class="data-info">Дата створення: @post.CreatedAt.ToString("dd-MM-yyyy")</p>
+					<div class="form-actions-group">
+						<a asp-action="DeleteItemForStructure" asp-route-id="@post.Id" class="delete-link">Delete</a>
+						<a asp-action="EditItemForStructurePost" asp-route-id="@post.Id" class="edit-link">Edit</a>
+					</div>
+				}
+			</div>
+		}
+	</div>
+</div>

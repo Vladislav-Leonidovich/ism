@@ -1,0 +1,42 @@
+﻿@model EditAccreditationProgramViewModel
+
+<div class="form-container">
+	<h2>Edit Program</h2>
+	<form asp-action="EditItemForAccreditationProgram" method="post" enctype="multipart/form-data">
+		<input type="hidden" asp-for="Id" />
+		<div>
+			<label asp-for="Title">Title</label>
+			<input asp-for="Title" class="form-control" />
+			<span asp-validation-for="Title" class="text-danger"></span>
+		</div>
+		<div>
+			<h5 style="color:black">Existing Accreditation Documents</h5>
+			<ul>
+				@foreach (var doc in Model.ExistingAccreditationDocuments)
+				{
+					<li>
+						<a href="@Url.Content("~/uploads/" + System.IO.Path.GetFileName(doc.FilePath))" target="_blank">@doc.Description</a>
+						<!-- Add logic for deleting documents if needed -->
+					</li>
+				}
+			</ul>
+			<label>Upload Accreditation Documents</label>
+			<input type="file" asp-for="AccreditationDocuments" multiple />
+		</div>
+		<div>
+			<h5 style="color:black">Existing Other Documents</h5>
+			<ul>
+				@foreach (var doc in Model.ExistingOtherDocuments)
+				{
+					<li>
+						<a href="@Url.Content("~/uploads/" + System.IO.Path.GetFileName(doc.FilePath))" target="_blank">@doc.Description</a>
+						<!-- Add logic for deleting documents if needed -->
+					</li>
+				}
+			</ul>
+			<label>Upload Other Documents</label>
+			<input type="file" asp-for="OtherDocuments" multiple />
+		</div>
+		<button type="submit">Save Changes</button>
+	</form>
+</div>

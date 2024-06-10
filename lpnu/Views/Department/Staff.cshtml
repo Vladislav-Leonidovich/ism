@@ -1,0 +1,37 @@
+﻿@model PaginatedList<lpnu.Models.Professor>
+
+@{
+	ViewData["Title"] = "Staff";
+}
+<div class="wrapper-stuff">
+	<div class="content-title">
+		<h3>@Localizer["StaffTitle"]</h3>
+		<img src="~/img/IndexIcons/Users.png" class="content-title-icon" />
+	</div>
+
+	<p>
+		@if (User.Identity.IsAuthenticated)
+		{
+			<a asp-action="CreateItemForStaff" class="btn btn-primary">+ Add New Teacher</a>
+		}
+	</p>
+	<div id="content">
+		@Html.Partial("_TeachersPartial", Model)
+	</div>
+</div>
+<script>
+	function loadPage(pageIndex) {
+		var url = '@Url.Action("Staff", "Department")' + '?pageIndex=' + pageIndex;
+		$.ajax({
+			url: url,
+			type: 'GET',
+			success: function (data) {
+				$('#content').html(data);
+			},
+			error: function () {
+				alert("Error loading data! Please try again.");
+			}
+		});
+	}
+</script>
+

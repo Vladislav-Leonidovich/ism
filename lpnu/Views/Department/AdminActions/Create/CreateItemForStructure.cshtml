@@ -1,0 +1,35 @@
+﻿@model StructureViewModel
+@{
+	ViewData["Title"] = "Create StructurePost";
+}
+<div class="form-container">
+	<h2>Add New Post</h2>
+	<form asp-controller="Department" asp-action="CreateItemForStructure" method="post" class="create-item-for-structure-form">
+		<div>
+			<label asp-for="LastName">LastName</label>
+			<input type="text" asp-for="LastName" placeholder="Last Name" class="form-control" required />
+			<span asp-validation-for="LastName" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="FirstName">First Name</label>
+			<input type="text" asp-for="FirstName" placeholder="First Name" class="form-control" required />
+			<span asp-validation-for="FirstName" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="Patronymic">Patronymic</label>
+			<input type="text" asp-for="Patronymic" placeholder="Patronymic" class="form-control" required />
+			<span asp-validation-for="Patronymic" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="Position">Position</label>
+			<input type="text" asp-for="Position" placeholder="Enter position" class="form-control" required />
+			<span asp-validation-for="Position" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="Description">Description</label>
+			<input type="text" asp-for="Description" placeholder="Enter Description" class="form-control" required />
+			<span asp-validation-for="Description" class="text-danger"></span>
+		</div>
+		<button type="submit">Create Post</button>
+	</form>
+</div>

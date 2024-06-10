@@ -1,0 +1,29 @@
+﻿@model lpnu.Models.CreateAccreditationProgramViewModel
+
+@{
+	ViewData["Title"] = "Create Accreditation Program";
+}
+<div class="form-container">
+	<h2>Add New Program</h2>
+	<form asp-action="CreateItemForAccreditationProgram" method="post" enctype="multipart/form-data">
+		<div>
+			<label asp-for="Title">Title</label>
+			<input asp-for="Title" class="form-control" />
+			<span asp-validation-for="Title" class="text-danger"></span>
+		</div>
+		<div>
+			<label>Upload Accreditation Documents:</label>
+			<input type="file" name="AccreditationDocuments" multiple />
+		</div>
+		<div>
+			<label>Upload Other Documents:</label>
+			<input type="file" name="OtherDocuments" multiple />
+		</div>
+		<button type="submit" class="btn btn-primary">Create</button>
+	</form>
+</div>
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

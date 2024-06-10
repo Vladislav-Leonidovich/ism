@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Delete User";
+}
+
+<h2>Delete User</h2>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">@ViewBag.Message</div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<form asp-action="DeleteUser" method="post">
+    <div class="form-group">
+        <label for="userId">User ID:</label>
+        <input type="text" class="form-control" id="userId" name="userId" required>
+    </div>
+    <button type="submit" class="btn btn-danger">Delete User</button>
+</form>

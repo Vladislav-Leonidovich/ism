@@ -1,0 +1,292 @@
+﻿:root {
+    --main-bg-color-1: #ffc659;
+    --main-bg-color-2: #221f1f;
+    --main-bg-color-3: white;
+    --main-bg-color-4: #9bbb57;
+    --main-font-standard-1: #000000;
+}
+
+.education-program-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.education-program-card {
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1em;
+    justify-items: center;
+    align-items: start;
+    padding: 2em;
+    opacity: 0.9;
+    grid-row-gap: 2em;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .education-program-card:hover {
+        background-color: var(--main-bg-color-1);
+        transform: translateY(-2px);
+        text-decoration: none;
+    }
+
+    .education-program-card:active {
+        background-color: var(--main-bg-color-2);
+        transform: translateY(1px);
+        text-decoration: none;
+    }
+
+.program-card-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.program-card {
+    border-radius: 1em;
+    padding: 15px;
+    background-color: var(--main-bg-color-4);
+    display: flex;
+    flex-direction: column;
+}
+
+.program-card-title {
+    margin-left: 40px;
+    color: var(--main-bg-color-2);
+    font-size: 1em;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .program-card-title::before {
+        content: counter(acc-program-counter);
+        counter-increment: acc-program-counter;
+        position: absolute;
+        left: -45px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: var(--main-bg-color-2);
+        color: var(--main-bg-color-4);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+    }
+
+    .program-card-title::after {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2220%22%20height=%2220%22%20viewBox=%220%200%2024%2024%22%3E%3Cpath%20d=%22M12%2015.172l4.95-4.95%201.414%201.414L12%2018%205.636%2011.636l1.414-1.414z%22/%3E%3C/svg%3E'); /* Путь к изображению стрелки */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .program-card-title.open::after {
+        transform: rotate(180deg);
+    }
+
+.program-card-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    margin-top: 0;
+    color: var(--main-bg-color-2);
+    text-indent: each-line;
+}
+
+    .program-card-description.open {
+        margin-top: 2em;
+        text-indent: 1em;
+    }
+
+.company-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2em;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .company-group {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .company-group {
+        grid-template-columns: 1fr;
+    }
+}
+
+.company-card-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.company-card {
+    max-width: 300px;
+    width: 100%;
+    height: 165px;
+    position: relative;
+    border-radius: 1em;
+    background-color: var(--main-bg-color-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .company-card::before {
+        position: absolute;
+        bottom: -0.7em;
+        left: -0.7em;
+        background-color: var(--main-bg-color-1);
+        content: "";
+        max-width: 300px;
+        width: 100%;
+        height: 165px;
+        border-radius: 1em;
+        z-index: -1;
+    }
+
+.company-logo {
+    max-width: 250px;
+    width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.company-flag {
+    max-width: 45px;
+    width: 100%;
+    border-radius: 0.2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.block-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.block-wrapper-color {
+    background-color: var(--main-bg-color-2)
+}
+
+.block-title {
+    color: var(--main-bg-color-4)
+}
+
+.university-group {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    padding: 2em;
+    gap: 0.5em;
+    list-style: none;
+    counter-reset: acc-program-counter;
+}
+
+.university-card-1, .university-card-2 {
+    border-radius: 1em;
+    padding: 15px;
+    background-color: var(--main-bg-color-4);
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+    max-width: 800px;
+    width: 100%;
+}
+
+.university-card-2 {
+    align-self: self-end;
+}
+
+.university-title {
+    margin-left: 40px;
+    color: var(--main-bg-color-2);
+    font-size: 1em;
+    position: relative;
+}
+
+    .university-title::before {
+        content: counter(acc-program-counter);
+        counter-increment: acc-program-counter;
+        position: absolute;
+        left: -45px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: var(--main-bg-color-2);
+        color: var(--main-bg-color-4);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+    }
+
+.university-title-reversed {
+    margin-right: 40px;
+    color: var(--main-bg-color-2);
+    font-size: 1em;
+    position: relative;
+    text-align: right;
+}
+
+    .university-title-reversed::before {
+        content: counter(acc-program-counter);
+        counter-increment: acc-program-counter;
+        position: absolute;
+        right: -45px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: var(--main-bg-color-2);
+        color: var(--main-bg-color-4);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+    }
+
+.conference-group {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    padding: 2em;
+    gap: 2em;
+    list-style: disc;
+    color: var(--main-font-standard-1);
+}
+
+.conference-title {
+}
+
+.conference-abbr {
+    font-weight: 800;
+}

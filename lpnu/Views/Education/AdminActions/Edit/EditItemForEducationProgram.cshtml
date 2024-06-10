@@ -1,0 +1,30 @@
+﻿@model lpnu.Models.EducationProgram
+
+@{
+	ViewData["Title"] = "Edit Education Program";
+}
+<div class="form-container">
+	<h2>Edit Education Program</h2>
+	<form asp-action="EditItemForEducationProgram" method="post">
+		<input type="hidden" asp-for="Id" />
+		<div class="form-group">
+			<label asp-for="Title" class="control-label"></label>
+			<input asp-for="Title" class="form-control" />
+			<span asp-validation-for="Title" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Description" class="control-label"></label>
+			<textarea asp-for="Description" class="form-control"></textarea>
+			<span asp-validation-for="Description" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Level" class="control-label"></label>
+			<select asp-for="Level" class="form-control" asp-items="Html.GetEnumSelectList<lpnu.Models.EducationLevel>()"></select>
+			<span asp-validation-for="Level" class="text-danger"></span>
+		</div>
+		<div class="btn-group">
+			<a asp-action="Programs" class="btn btn-secondary">Cancel</a>
+			<button type="submit" class="btn btn-success">Update</button>
+		</div>
+	</form>
+</div>

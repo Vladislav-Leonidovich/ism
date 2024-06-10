@@ -1,0 +1,579 @@
+/* _content/lpnu/Components/Menu.razor.rz.scp.css */
+button[b-bwjddys8x0] {
+    background: none; /* Забираємо фоновий колір */
+    color: inherit; /* Колір тексту успадковується від батьківського елемента */
+    border: none; /* Видаляємо рамку */
+    padding: 0; /* Видаляємо внутрішні відступи */
+    margin: 0; /* Видаляємо зовнішні відступи */
+    font: inherit; /* Шрифт успадковується від батьківського елемента */
+    text-align: inherit; /* Вирівнювання тексту успадковується від батьківського елемента */
+    cursor: pointer; /* Курсор у вигляді вказівника, що показує, що це інтерактивний елемент */
+    -webkit-appearance: none; /* Видаляємо стандартне оформлення в Webkit-браузерах */
+    -moz-appearance: none; /* Видаляємо стандартне оформлення в Firefox */
+    appearance: none; /* Скидаємо стандартне оформлення для інших браузерів */
+}
+/* Верхня навігаційна панель*/
+.nav-bar-mini[b-bwjddys8x0] {
+    background-image: linear-gradient(to right, #74955E, #4E653E);
+    position: relative;
+    z-index: 2000;
+}
+
+    .nav-bar-mini > .nav-grid[b-bwjddys8x0] {
+        display: grid;
+        grid-template-areas:
+            "menu logo contacts-lang";
+        grid-template-columns: 1fr auto 1fr;
+        justify-items: center;
+        grid-column-gap: 1em;
+        padding: 3px;
+    }
+
+.wrapper[b-bwjddys8x0] {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.menu-container[b-bwjddys8x0] {
+    display: grid;
+    grid-template-columns: max-content max-content;
+}
+
+.contacts-lang-container[b-bwjddys8x0] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: flex-end;
+    grid-column-gap: 1em;
+}
+
+@keyframes rotate-animation-b-bwjddys8x0 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.rotatable[b-bwjddys8x0] {
+    cursor: pointer;
+    /* Убедитесь, что анимация не запущена изначально */
+}
+
+.rotate[b-bwjddys8x0] {
+    /* Применяется на короткое время, когда нужно запустить анимацию */
+    animation: rotate-animation-b-bwjddys8x0 1s forwards; /* 'forwards' сохранит конечное состояние после анимации */
+}
+
+.menu-item[b-bwjddys8x0] {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+
+.menu[b-bwjddys8x0] {
+    grid-area: menu;
+    justify-self: flex-start;
+}
+
+#menu[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/Menu.png');
+}
+
+#menu-open[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/Close.png');
+}
+
+.menu-item:hover #menu-open[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/CloseHover.png');
+}
+
+.menu-icon[b-bwjddys8x0] {
+    width: 40px; /* Задайте бажані розміри */
+    height: 40px;
+    background-size: contain; /* Покриває весь елемент, зберігаючи пропорції */
+    background-repeat: no-repeat;
+    transition: background-image 0.3s; /* Плавна зміна зображень */
+}
+
+.menu-text[b-bwjddys8x0] {
+    color: white;
+    transition: color 0.3s;
+}
+
+.menu-item:hover #menu[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/MenuHover.png'); /* Путь к исходному изображению логотипа */
+}
+
+.menu-item:hover .menu-text[b-bwjddys8x0] {
+    color: #FFC65A;
+}
+
+.logo[b-bwjddys8x0] {
+    grid-area: logo;
+    width: 130px; /* Задайте желаемые размеры */
+    height: 75px;
+    background-image: url('/img/layoutIcons/Logo.png'); /* Путь к исходному изображению логотипа */
+    background-size: contain; /* Покрывает весь элемент, сохраняя пропорции */
+    background-repeat: no-repeat;
+    transition: background-image 0.5s; /* Плавная смена изображений */
+}
+
+    .logo:hover[b-bwjddys8x0] {
+        background-image: url('/img/layoutIcons/LogoHover.png'); /* Путь к изображению логотипа при наведении */
+    }
+
+    .logo > a > img[b-bwjddys8x0] {
+        width: 100%;
+        max-width: 130px;
+    }
+
+.contacts[b-bwjddys8x0] {
+    grid-area: contacts;
+}
+
+#contacts[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/Phone.png');
+    width: 30px; /* Задайте бажані розміри */
+    height: 30px;
+}
+
+.menu-item:hover #contacts[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/PhoneHover.png'); /* Шлях до початкового шляху логотипа */
+}
+
+.lang[b-bwjddys8x0] {
+    grid-area: lang;
+}
+
+    .lang > .menu-item[b-bwjddys8x0] {
+        grid-template-columns: max-content max-content max-content;
+    }
+
+#earth[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/EarthPlanet.png');
+    width: 30px; /* Задайте бажані розміри */
+    height: 30px;
+}
+
+.menu-item:hover #earth[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/EarthPlanetHover.png'); /* Шлях до початкового шляху логотипа */
+}
+
+#arrow[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/ExpandArrow.png');
+    width: 20px; /* Задайте бажані розміри */
+    height: 20px;
+}
+
+.menu-item:hover #arrow[b-bwjddys8x0] {
+    background-image: url('/img/layoutIcons/ExpandArrowHover.png'); /* Шлях до початкового шляху логотипа */
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .wrapper[b-bwjddys8x0] {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrapper[b-bwjddys8x0] {
+        max-width: none;
+        padding: 0px 5px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .nav-bar-mini > .nav-grid[b-bwjddys8x0] {
+        grid-template-areas:
+            "menu contacts lang";
+        grid-template-columns: 1fr 1fr 1fr; /* 3 фракції, логотип забраний */
+        justify-items: center;
+        align-items: center;
+        height: 75px;
+    }
+
+    .logo[b-bwjddys8x0] {
+        display: none;
+    }
+
+    .contacts-lang-container[b-bwjddys8x0] {
+        display: contents; /* Дозволяє дочірним елементам вести себе як діти .nav-grid */
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .contacts > .menu-item > p[b-bwjddys8x0] {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+/* Розгорнута навігаційна панель*/
+
+@keyframes slideDown-b-bwjddys8x0 {
+    from {
+        transform: translateY(-100%);
+        visibility: hidden;
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp-b-bwjddys8x0 {
+    from {
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-100%);
+        visibility: hidden;
+        opacity: 1;
+    }
+}
+
+.nav-bar-full[b-bwjddys8x0] {
+    background-image: linear-gradient(to right, #3D3A32, #524F46);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    display: none;
+    visibility: hidden;
+    opacity: 1;
+    z-index: 1000;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+    .nav-bar-full.open-anim[b-bwjddys8x0] {
+        display: block;
+        animation: slideDown-b-bwjddys8x0 0.3s forwards;
+    }
+
+
+    .nav-bar-full.close-anim[b-bwjddys8x0] {
+        display: block;
+        animation: slideUp-b-bwjddys8x0 0.3s forwards;
+    }
+
+    .nav-bar-full.open[b-bwjddys8x0] {
+        display: block;
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    .nav-bar-full.close[b-bwjddys8x0] {
+        display: block;
+        transform: translateY(-100%);
+        visibility: hidden;
+        opacity: 1;
+    }
+
+    .nav-bar-full > .nav-grid[b-bwjddys8x0] {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 0em;
+        align-items: start;
+        justify-items: center;
+        padding: 2em 0;
+        margin: 0 auto;
+    }
+
+    .nav-bar-full > .wrapper-bar > ul[b-bwjddys8x0] {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+.nav-bar-subtitle[b-bwjddys8x0] {
+    margin-bottom: 5px;
+}
+
+.nav-bar-full .nav-bar-links .nav-bar-subtitle .link-button[b-bwjddys8x0] {
+    color: #c6c5c3; /* Початковий колір посилань */
+    transition: color 0.3s; /* Плавна зміна кольору */
+}
+
+    .nav-bar-full .nav-bar-links .nav-bar-subtitle .link-button:hover[b-bwjddys8x0] {
+        color: #FFC65A; /* Колір посилань при наведенні */
+    }
+
+.nav-bar-title[b-bwjddys8x0] {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+    .nav-bar-full[b-bwjddys8x0] {
+        top: 74px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar-full > .nav-grid[b-bwjddys8x0] {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: max-content;
+        grid-row-gap: 2em;
+        align-items: center;
+        justify-items: start;
+        text-align: start;
+        padding: 2em 0;
+    }
+
+    .nav-bar-links[b-bwjddys8x0] {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-bar-title[b-bwjddys8x0] {
+        text-align: center;
+    }
+}
+/* _content/lpnu/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+*[b-7j5q45xy0y] {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.cuprum-<uniquifier[b-7j5q45xy0y] > {
+    font-family: "Cuprum", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.site-container[b-7j5q45xy0y] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Мінімальна висота дорівнює висоті видимої частини екрана */
+}
+
+body[b-7j5q45xy0y] {
+    display: flex;
+    justify-content: center;
+}
+
+button[b-7j5q45xy0y] {
+    background: none; /* Видаляємо фоновий колір */
+    color: inherit; /* Колір тексту успадковується від батьківського елемента */
+    border: none; /* Видаляємо рамку */
+    padding: 0; /* Видаляємо внутрішні відступи */
+    margin: 0; /* Видаляємо зовнішні відступи */
+    font: inherit; /* Шрифт успадковується від батьківського елемента */
+    text-align: inherit; /* Вирівнювання тексту успадковується від батьківського елемента */
+    cursor: pointer; /* Курсор у вигляді вказівника, що показує, що це інтерактивний елемент */
+    -webkit-appearance: none; /* Видаляємо стандартне оформлення в Webkit-браузерах */
+    -moz-appearance: none; /* Видаляємо стандартне оформлення в Firefox */
+    appearance: none; /* Скидаємо стандартне оформлення для інших браузерів */
+}
+
+.main-content[b-7j5q45xy0y] {
+    transition: margin-top 0.3s ease;
+    flex: 1; /* Контент займає весь доступний простір */
+}
+
+    .main-content.menu-open[b-7j5q45xy0y] {
+        margin-top: 234px;
+    }
+
+@media only screen and (max-width: 600px) {
+    .main-content.menu-open[b-7j5q45xy0y] {
+        margin-top: 549px; 
+    }
+}
+.footer[b-7j5q45xy0y] {
+    margin-top: auto; /* Автоматичний відступ зверху */
+    width: 100%;
+    white-space: nowrap;
+    line-height: 1.5;
+    background-color: #221F1F;
+}
+
+    .footer > .wrapper[b-7j5q45xy0y] {
+        padding: 3em 0em;
+    }
+
+.footer-grid[b-7j5q45xy0y] {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+.footer-container[b-7j5q45xy0y] {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-row-gap: 1em;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.footer-container-1[b-7j5q45xy0y] {
+}
+
+    .footer-container-1 > img[b-7j5q45xy0y] {
+        max-width: 120px;
+    }
+
+.footer-container-2[b-7j5q45xy0y] {
+}
+
+    .footer-container-2 > .footer-item[b-7j5q45xy0y] {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 2em;
+    }
+
+.footer-container-3[b-7j5q45xy0y] {
+    justify-items: flex-start;
+}
+
+    .footer-container-3 > .footer-item[b-7j5q45xy0y] {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-column-gap: 1em;
+        align-items: center;
+    }
+
+    .footer-container-3 > .footer-item > .footer-text[b-7j5q45xy0y]{
+        text-align: left;
+    }
+
+.footer-text[b-7j5q45xy0y] {
+    text-align: center;
+    color: #D9D9D9;
+    transition: color 0.3s;
+}
+
+.footer-icon[b-7j5q45xy0y] {
+    width: 40px; /* Задайте бажані розміри */
+    height: 40px;
+    background-size: contain; /* Покриває весь елемент, зберігаючи пропорції */
+    background-repeat: no-repeat;
+    transition: background-image 0.3s; /* Плавна зміна зображень */
+}
+
+#logo[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/LogoWhite.png');
+    width: 250px;
+    height: 150px;
+}
+
+    #logo:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/WhiteLogoHover.png'); /* Шлях до зображення логотипу при наведенні */
+    }
+
+#telegram[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Telegram.png');
+}
+
+    #telegram:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/TelegramHover.png');
+    }
+
+#instagram[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Instagram.png');
+}
+
+    #instagram:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/InstagramHover.png');
+    }
+
+#facebook[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Facebook.png');
+}
+
+    #facebook:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/FacebookHover.png');
+    }
+
+#linkedin[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/LinkedIn.png');
+}
+
+    #linkedin:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/LinkedInHover.png');
+    }
+
+.footer-item:hover .footer-text[b-7j5q45xy0y] {
+    color: #FFC65A;
+}
+
+#placemarker[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/PlaceMarker.png');
+}
+
+.footer-item:hover #placemarker[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/PlaceMarkerHover.png');
+}
+
+#email[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Email.png');
+}
+
+.footer-item:hover #email[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/EmailHover.png');
+}
+
+#phone[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Phone.png');
+}
+
+.footer-item:hover #phone[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/PhoneHover.png');
+}
+
+.copyright[b-7j5q45xy0y] {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+    padding-bottom: 1em;
+    margin: 0 auto;
+}
+
+    .copyright > a[b-7j5q45xy0y] {
+        text-align: center;
+        color: #FFC65A;
+        white-space: normal;
+    }
+
+@media only screen and (max-width: 769px) {
+    .footer-grid[b-7j5q45xy0y] {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 0em;
+        grid-row-gap: 4em;
+        justify-content: center;
+    }
+
+    .footer-container-3[b-7j5q45xy0y] {
+        justify-items: center;
+    }
+
+        .footer-container-3 > .footer-item > .footer-text[b-7j5q45xy0y] {
+            text-align: center;
+        }
+}

@@ -1,0 +1,30 @@
+﻿@model lpnu.Models.Company
+
+@{
+	ViewData["Title"] = "Edit Company";
+}
+<div class="form-container">
+	<h2>Edit Company</h2>
+	<form asp-action="EditItemForCompany" method="post">
+		<input type="hidden" asp-for="Id" />
+		<div>
+			<label asp-for="Name">Company Name</label>
+			<input type="text" asp-for="Name" placeholder="Enter..." class="form-control" required />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="LogoPath">Logo Path</label>
+			<input type="text" asp-for="LogoPath" placeholder="Enter..." class="form-control" required />
+			<span asp-validation-for="LogoPath" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="FlagPath">Flag Path</label>
+			<input type="text" asp-for="FlagPath" placeholder="Enter..." class="form-control" required />
+			<span asp-validation-for="FlagPath" class="text-danger"></span>
+		</div>
+		<div class="btn-group">
+			<a asp-action="InternationalRelations" class="btn btn-secondary">Cancel</a>
+			<button type="submit" class="btn btn-success">Update</button>
+		</div>
+	</form>
+</div>

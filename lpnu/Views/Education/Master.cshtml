@@ -1,0 +1,28 @@
+﻿@model lpnu.Models.EducationProgramViewModel
+@{
+	ViewData["Title"] = "Master";
+}
+<div class="wrapper-stuff">
+	<div class="content-title">
+		<h3>@Localizer["MasterTitle"]</h3>
+		<img src="~/img/IndexIcons/StudentCenter3.png" class="content-title-icon" style="height: 50px; width: 50px;" />
+	</div>
+	<div class="acc-program-container">
+		@foreach (var program in Model.MastersPrograms)
+		{
+			<div class="program-card-group">
+				<div class="program-card">
+					<p class="program-card-title">@program.Title</p>
+					<p class="program-card-description">@program.Description</p>
+				</div>
+				@if (User.Identity.IsAuthenticated)
+				{
+					<div class="form-actions-group">
+						<a asp-action="DeleteItemForEducationProgram" asp-route-id="@program.Id" class="delete-link">Delete</a>
+						<a asp-action="EditItemForEducationProgram" asp-route-id="@program.Id" class="edit-link">Edit</a>
+					</div>
+				}
+			</div>
+		}
+	</div>
+</div>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<lpnu.Models.AccreditationProgram>
+
+@{
+	ViewData["Title"] = "Accreditation Programs";
+}
+<div class="wrapper-stuff">
+	<div class="content-title">
+		<h3>@Localizer["ProgramOverviewTitle"]</h3>
+		<img src="~/img/IndexIcons/Detective.png" class="content-title-icon" />
+	</div>
+	@if (User.Identity.IsAuthenticated)
+	{
+		<a asp-action="CreateItemForAccreditationProgram" class="btn btn-primary">@Localizer["CreateNewProgram"]</a>
+	}
+	<ol class="acc-program-container">
+		@foreach (var program in Model)
+		{
+			<li class="acc-program-block">
+				<div class="acc-program-title">@program.Title</div>
+				<div class="acc-program-documents">
+					<div class="form-program-actions-group">
+						<a asp-action="AccreditationDocuments" asp-route-id="@program.Id" class="btn more-btn">Accreditation Documents</a>
+						<a asp-action="OtherDocuments" asp-route-id="@program.Id" class="btn more-btn">Documents</a>
+					</div>
+					@if (User.Identity.IsAuthenticated)
+					{
+						<div class="form-actions-group">
+							<a asp-action="EditItemForAccreditationProgram" asp-route-id="@program.Id" class="btn edit-link">Edit</a>
+							<a asp-action="DeleteItemForAccreditationProgram" asp-route-id="@program.Id" class="btn btn-danger">Delete</a>
+						</div>
+					}
+				</div>
+			</li>
+		}
+	</ol>
+</div>
+
+@section Scripts {
+	<script src="~/js/programs.js"></script>
+}

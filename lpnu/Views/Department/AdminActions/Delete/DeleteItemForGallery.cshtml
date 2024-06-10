@@ -1,0 +1,16 @@
+﻿@model lpnu.Models.Photo
+
+@{
+	ViewData["Title"] = "Delete Photo";
+}
+<div class="form-container">
+	<h2>Delete</h2>
+	<form asp-action="DeleteConfirmedItemForGallery" method="post" class="form-actions">
+		<h3 style="text-align:center">Are you sure you want to delete this item?</h3>
+		<div class="btn-group">
+			<input type="hidden" asp-for="Id" />
+			<button type="submit" class="btn btn-danger">Delete</button>
+			<a asp-action="Gallery" class="btn btn-secondary">Cancel</a>
+		</div>
+	</form>
+</div>

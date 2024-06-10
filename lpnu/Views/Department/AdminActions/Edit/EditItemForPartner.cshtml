@@ -1,0 +1,37 @@
+﻿@model lpnu.Models.Partner
+
+@{
+	ViewData["Title"] = "Edit Partner";
+}
+<div class="form-container">
+	<h2>Edit Partner</h2>
+	<form asp-action="EditItemForPartner" method="post" class="create-item-for-partner-form">
+		<input type="hidden" asp-for="Id" />
+		<div>
+			<label asp-for="CompanyName">Company Name</label>
+			<input type="text" asp-for="CompanyName" placeholder="Enter company name" class="form-control" required />
+			<span asp-validation-for="CompanyName" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="LogoPath">Logo Path</label>
+			<input type="text" asp-for="LogoPath" placeholder="Enter logo path" class="form-control" required />
+			<span asp-validation-for="LogoPath" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="WebsiteURL">WebsiteURL</label>
+			<input type="text" asp-for="WebsiteURL" placeholder="Enter Website URL" class="form-control" required />
+			<span asp-validation-for="WebsiteURL" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="Description">Description</label>
+			<div>
+				<textarea asp-for="Description" placeholder="Enter description" required rows="4"></textarea>
+				<span asp-validation-for="Description" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="btn-group">
+			<a asp-action="Partners" class="btn btn-secondary">Cancel</a>
+			<button type="submit" class="btn btn-success">Update</button>
+		</div>
+	</form>
+</div>

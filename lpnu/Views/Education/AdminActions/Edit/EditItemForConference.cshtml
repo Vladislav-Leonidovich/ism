@@ -1,0 +1,25 @@
+﻿@model lpnu.Models.Conference
+
+@{
+	ViewData["Title"] = "Edit Conference";
+}
+<div class="form-container">
+	<h2>Edit Conference</h2>
+	<form asp-action="EditItemForConference" method="post">
+		<input type="hidden" asp-for="Id" />
+		<div>
+			<label asp-for="Title">Title</label>
+			<input type="text" asp-for="Title" placeholder="Enter..." class="form-control" required />
+			<span asp-validation-for="Title" class="text-danger"></span>
+		</div>
+		<div>
+			<label asp-for="Abbreviation">Abbreviation</label>
+			<input type="text" asp-for="Abbreviation" placeholder="Enter..." class="form-control" required />
+			<span asp-validation-for="Abbreviation" class="text-danger"></span>
+		</div>
+		<div class="btn-group">
+			<a asp-action="InternationalRelations" class="btn btn-secondary">Cancel</a>
+			<button type="submit" class="btn btn-success">Update</button>
+		</div>
+	</form>
+</div>

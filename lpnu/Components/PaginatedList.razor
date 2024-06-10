@@ -1,0 +1,79 @@
+﻿@page "/professors"
+@using lpnu.Models
+@using lpnu.Services.Interfaces
+@using Microsoft.AspNetCore.Components.Authorization
+@inject IProfessorService ProfessorService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+
+@if (professors == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="teacher-grid">
+        @foreach (var item in professors)
+        {
+            <div class="teacher-card">
+                <img src="@item.PhotoPath" alt="Photo" class="teacher-photo" />
+                <div>@item.FirstName @item.LastName @item.Patronymic</div>
+                @if (isAdmin)
+                {
+                    <button class="btn btn-danger" @onclick="() => DeleteProfessor(item.Id)">Delete</button>
+                }
+            </div>
+        }
+    </div>
+
+    <div class="pager">
+        <button class="btn btn-secondary" disabled="@(!professors.HasPreviousPage)" @onclick="LoadPreviousPage">Previous</button>
+        <button class="btn btn-secondary" disabled="@(!professors.HasNextPage)" @onclick="LoadNextPage">Next</button>
+    </div>
+}
+
+@code {
+    private PaginatedList<Professor> professors;
+    private int currentPage = 1;
+    private const int pageSize = 8;
+    private bool isAuthenticated;
+    private bool isAdmin;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        isAuthenticated = user.Identity.IsAuthenticated;
+        isAdmin = user.IsInRole("Admin");
+        await LoadProfessors(currentPage);
+    }
+
+    private async Task LoadProfessors(int pageIndex)
+    {
+        professors = await ProfessorService.GetProfessorsPageAsync(pageIndex, pageSize);
+    }
+
+    private async Task LoadNextPage()
+    {
+        if (professors.HasNextPage)
+        {
+            currentPage++;
+            await LoadProfessors(currentPage);
+        }
+    }
+
+    private async Task LoadPreviousPage()
+    {
+        if (professors.HasPreviousPage)
+        {
+            currentPage--;
+            await LoadProfessors(currentPage);
+        }
+    }
+
+    private async Task DeleteProfessor(int id)
+    {
+        await ProfessorService.DeleteProfessorAsync(id);
+        await LoadProfessors(currentPage);
+    }
+}

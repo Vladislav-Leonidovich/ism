@@ -1,0 +1,76 @@
+﻿@model lpnu.Models.CreateContactViewModel
+
+@{
+    ViewData["Title"] = "Create Contact";
+}
+<div class="form-container">
+    <h2>Create Contact</h2>
+    <form id="createContactForm" asp-action="CreateItemForContact" method="post">
+        <div class="form-group">
+            <label asp-for="EducationalBuilding" class="control-label"></label>
+            <input asp-for="EducationalBuilding" class="form-control" />
+            <span asp-validation-for="EducationalBuilding" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Room" class="control-label"></label>
+            <input asp-for="Room" class="form-control" />
+            <span asp-validation-for="Room" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PhoneNumber" class="control-label"></label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="enteredName" class="control-label">Entered Name</label>
+            <input id="enteredName" class="form-control" />
+            <span class="text-danger" id="enteredNameValidation"></span>
+            <button type="button" class="btn btn-success" id="addNameBtn">Add Name</button>
+        </div>
+        <ul id="nameList"></ul>
+        <input type="hidden" asp-for="StuffNameCollectionSerialized" />
+        <button type="submit" class="btn btn-primary">Create Contact</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('addNameBtn').addEventListener('click', function () {
+                var enteredName = document.getElementById('enteredName').value;
+                var nameList = document.getElementById('nameList');
+                var enteredNameValidation = document.getElementById('enteredNameValidation');
+
+                if (enteredName.trim() === '') {
+                    enteredNameValidation.textContent = 'Please enter a name';
+                    return;
+                }
+
+                enteredNameValidation.textContent = '';
+
+                // Add the entered name to the list
+                var listItem = document.createElement('li');
+                listItem.textContent = enteredName;
+                nameList.appendChild(listItem);
+
+                // Clear the entered name input
+                document.getElementById('enteredName').value = '';
+
+                // Update the hidden input with the serialized list
+                updateStuffNameCollection();
+            });
+
+            function updateStuffNameCollection() {
+                var nameListItems = document.querySelectorAll('#nameList li');
+                var stuffNameCollection = [];
+
+                nameListItems.forEach(function (item) {
+                    stuffNameCollection.push(item.textContent);
+                });
+
+                // Update the hidden input with the serialized list
+                document.querySelector('input[name="StuffNameCollectionSerialized"]').value = JSON.stringify(stuffNameCollection);
+            }
+        });
+    </script>
+}

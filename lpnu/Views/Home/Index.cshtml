@@ -1,0 +1,162 @@
+﻿
+@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="main-content-block">
+	<div class="title-text-container">
+		<h1 class="animate-charcter">@Localizer["MainTitle"]</h1>
+	</div>
+</div>
+<div class="card-container">
+	<div class="card-1 partially-visible">
+		<div class="card-content">
+			<img src="~/img/IndexIcons/University.png" class="card-icon" />
+			<p class="card-text">@Localizer["Department"]</p>
+		</div>
+		<a asp-controller="Department" asp-action="Structure" class="more-btn">
+			<p class="btn-text">@Localizer["MoreBtn"]</p>
+			<div class="btn-icon"></div>
+		</a>
+	</div>
+	<div class="card-2 partially-visible">
+		<div class="card-content">
+			<img src="~/img/IndexIcons/Warranty.png" class="card-icon" />
+			<p class="card-text">@Localizer["Accreditation"]</p>
+		</div>
+		<a asp-controller="Accreditation" asp-action="AccreditationDocuments" class="more-btn">
+			<p class="btn-text">@Localizer["MoreBtn"]</p>
+			<div class="btn-icon"></div>
+		</a>
+	</div>
+	<div class="card-3 partially-visible">
+		<div class="card-content">
+			<img src="~/img/IndexIcons/Bookmark.png" class="card-icon" />
+			<p class="card-text">@Localizer["Education"]</p>
+		</div>
+		<a asp-controller="Education" asp-action="Programs" class="more-btn">
+			<p class="btn-text">@Localizer["MoreBtn"]</p>
+			<div class="btn-icon"></div>
+		</a>
+	</div>
+	<div class="card-4 partially-visible">
+		<div class="card-content">
+			<img src="~/img/IndexIcons/User.png" class="card-icon" />
+			<p class="card-text">@Localizer["Contacts"]</p>
+		</div>
+		<a asp-controller="Home" asp-action="Contacts" class="more-btn">
+			<p class="btn-text">@Localizer["MoreBtn"]</p>
+			<div class="btn-icon"></div>
+		</a>
+	</div>
+</div>
+<div class="line"></div>
+<div class="main-section history-section">
+	<div class="wrapper">
+		<div class="content-title">
+			<h3>@Localizer["History"]</h3>
+			<img src="~/img/IndexIcons/ActivityHistory.png" class="content-title-icon" />
+		</div>
+		<div class="content-img-text">
+			<img src="~/img/IndexIcons/photo_2024-02-28_18-28-12 2.png" class="content-img" />
+			<div class="block-card" style="--accent-color: #FFC65A">
+				<div class="icon-info"><img src="~/img/IndexIcons/Info.png" /></div>
+				<div class="block-card-text">
+					@Localizer["HistoryCardText"]
+				</div>
+				<a asp-controller="Department" asp-action="Gallery" class="more-btn">
+					<p class="btn-text">@Localizer["MoreBtn"]</p>
+					<div class="btn-icon"></div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="main-section science-section">
+	<div class="wrapper">
+		<div class="content-title">
+			<h3>Контакти</h3>
+			<img src="~/img/IndexIcons/User2.png" class="content-title-icon" />
+		</div>
+		<div class="content-img-text">
+			<div class="block-card" style="--accent-color: #FFC65A">
+				<div class="icon-info"><img src="~/img/IndexIcons/Info.png" /></div>
+				<div class="block-card-text">
+					@Localizer["ContactsCardText"]
+				</div>
+				<a asp-controller="Home" asp-action="Contacts" class="more-btn">
+					<p class="btn-text">@Localizer["MoreBtn"]</p>
+					<div class="btn-icon"></div>
+				</a>
+			</div>
+			<img src="~/img/IndexIcons/photo_2024-02-28_18-28-12 2313.png" class="content-img" />
+		</div>
+	</div>
+</div>
+<div class="main-section employees-section">
+	<div class="wrapper">
+		<div class="content-title">
+			<h3>@Localizer["Team"]</h3>
+			<img src="~/img/IndexIcons/Users.png" class="content-title-icon" />
+		</div>
+		<div class="content-img-text">
+			<img src="~/img/IndexIcons/ProfPhoto.png" class="content-img" />
+			<div class="block-card" style="--accent-color: #FFC65A">
+				<div class="icon-info"><img src="~/img/IndexIcons/Info.png" /></div>
+				<div class="employees-icon-group">
+					<img src="~/img/IndexIcons/AdministratorMaleGreen.png" class="employees-icon icon-back" />
+					<img src="~/img/IndexIcons/AdministratorMaleYellow.png" class="employees-icon icon-front" />
+				</div>
+				<div class="block-card-text">
+					@Localizer["TeamCardText"]
+				</div>
+				<a asp-controller="Department" asp-action="Staff" class="more-btn">
+					<p class="btn-text">@Localizer["MoreBtn"]</p>
+					<div class="btn-icon"></div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div> <!--Структура-->
+<div class="line"></div>
+<div class="main-section education-section"> <!--Освітні програми-->
+	<div class="wrapper">
+		<div class="content-title">
+			<h3>@Localizer["EducationSectionTitle"]</h3>
+			<img src="~/img/IndexIcons/GraduationScroll.png" class="content-title-icon" />
+		</div>
+		<div class="education-card-container">
+			<div class="education-card education-card-1">
+				<p class="education-card-title">@Localizer["Bachelor"]</p>
+				<img src="~/img/IndexIcons/StudentCenter1.png" class="education-card-icon" />
+				<p class="education-card-subtitle">
+					@Localizer["BachelorCardSubtitle"]
+				</p>
+			</div>
+			<div class="education-card education-card-2">
+				<p class="education-card-title">@Localizer["Master"]</p>
+				<img src="~/img/IndexIcons/StudentCenter2.png" class="education-card-icon" />
+				<p class="education-card-subtitle">
+					@Localizer["MasterCardSubtitle"]
+				</p>
+			</div>
+			<div class="education-card education-card-3">
+				<p class="education-card-title">@Localizer["Postgraduate"]</p>
+				<img src="~/img/IndexIcons/StudentCenter3.png" class="education-card-icon" />
+				<p class="education-card-subtitle">
+					@Localizer["PostgraduateCardSubtitle"]
+				</p>
+			</div>
+		</div>
+		<div class="more-line-container">
+			<div class="more-line">
+				<p>@Localizer["MoreDetailsHere"]</p>
+				<img src="~/img/IndexIcons/Arrow1.png" id="more-arrow" />
+				<a asp-controller="Education" asp-action="Programs" class="more-btn">
+					<p class="btn-text">@Localizer["MoreBtn"]</p>
+					<div class="btn-icon"></div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div> <!--Освітні програми-->

@@ -1,0 +1,139 @@
+﻿@using lpnu.Components
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Localization
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - lpnu</title>
+	<base href="/" /> <!--задає базовий URL для всіх відносних URL-адрес на веб-сторінці. Це означає, що всі відносні посилання на сторінці автоматично відноситимуться до вказаної базової адреси.-->
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="stylesheet" href="~/css/Reset.css" asp-append-version="true" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Cuprum:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="~/css/Site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/Authorization.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/Stuff.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/Education.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/Menu.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/lpnu.styles.css" asp-append-version="true" />
+</head>
+<body>
+	<div class="site-container">
+		<header>
+			<nav class="nav-bar-mini">
+				<div class="nav-grid wrapper">
+					<div class="menu-container menu">
+						<button id="menuButton" class="menu-item" data-menu-text="@Localizer["MenuText"]" data-close-text="@Localizer["CloseText"]">
+							<div class="menu-icon rotatable" id="menu"></div>
+							<p class="menu-text" id="menuText">@Localizer["MenuText"]</p>
+						</button>
+					</div>
+					<div class="menu-container logo">
+						<a asp-controller="Home" asp-action="Index" class="logo"></a>
+					</div>
+					<div class="contacts-lang-container">
+						<div class="contacts">
+							<a asp-controller="Home" asp-action="Contacts" class="menu-item link-button">
+								<div class="menu-icon" id="contacts"></div>
+								<p class="menu-text">@Localizer["Contacts"]</p>
+							</a>
+						</div>
+						<div class="lang">
+							<div class="menu-item">
+								<div class="menu-icon" id="earth"></div>
+								@await Html.PartialAsync("_SelectLanguagePartial")
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<nav class="nav-bar-full close" id="mainNav">
+				<div class="nav-grid wrapper">
+					<ul class="nav-bar-links">
+						<li class="nav-bar-title">@Localizer["Department"]</li>
+						<li class="nav-bar-subtitle"><a asp-controller="Home" asp-action="Index" class="link-button">@Localizer["Home"]</a></li>
+						<li class="nav-bar-subtitle"><a asp-controller="Department" asp-action="Structure" class="link-button">@Localizer["Structure"]</a></li>
+						<li class="nav-bar-subtitle"><a asp-controller="Department" asp-action="Staff" class="link-button">@Localizer["Team"]</a></li>
+						<li class="nav-bar-subtitle"><a asp-controller="Department" asp-action="Gallery" class="link-button">@Localizer["Gallery"]</a></li>
+						<li class="nav-bar-subtitle"><a asp-controller="Department" asp-action="Partners" class="link-button">@Localizer["Partners"]</a></li>
+					</ul>
+					<ul class="nav-bar-links">
+						<li class="nav-bar-title">@Localizer["Accreditation"]</li>
+						<li class="nav-bar-subtitle"><a asp-controller="Accreditation" asp-action="AccreditationPrograms" class="link-button">@Localizer["ProgramsOverview"]</a></li>
+						<li class="nav-bar-subtitle"><a asp-controller="Accreditation" asp-action="OtherDocuments" class="link-button">@Localizer["Documents"]</a></li>
+						<li class="nav-bar-subtitle"><a asp-controller="Accreditation" asp-action="AccreditationDocuments" class="link-button">@Localizer["AccreditationProcess"]</a></li>
+					</ul>
+					<ul class="nav-bar-links">
+						<li class="nav-bar-title">@Localizer["Education"]</li>
+						<li class="nav-bar-subtitle"><a asp-controller="Education" asp-action="Programs" class="link-button">@Localizer["EducationPrograms"]</a></li>
+						<li class="nav-bar-subtitle"><a asp-controller="Education" asp-action="InternationalRelations" class="link-button">@Localizer["InternationalRelations"]</a></li>
+						<li class="nav-bar-subtitle"><a asp-controller="Home" asp-action="Index" class="link-button">@Localizer["Employment"]</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="main-content">
+			<div class="container">
+				<main role="main" class="pb-3">
+					@RenderBody()
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer class="border-top footer text-muted">
+		<div class="footer-grid wrapper">
+			<div class="footer-container footer-container-1">
+				<p class="footer-text">
+					@Localizer["FooterBot"]
+				</p>
+				<img src="/img/layoutIcons/QR.png" />
+			</div>
+			<div class="footer-container footer-container-2">
+				<a asp-controller="Home" asp-action="Index">
+					<div class="footer-icon" id="logo"></div>
+				</a>
+				<div class="footer-item">
+					<a href="https://t.me/Dep_ISN"><div class="footer-icon" id="telegram"></div></a>
+					<a href="https://www.instagram.com/ism_lpnu?igsh=OTB6OW9rMTVpN293"><div class="footer-icon" id="instagram"></div></a>
+					<a href="https://www.facebook.com/share/AZqmxu7dH5gjgo9B/?mibextid=LQQJ4d"><div class="footer-icon" id="facebook"></div></a>
+					<a href="https://www.linkedin.com/in/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D1%96%D1%81%D0%BC-048321304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><div class="footer-icon" id="linkedin"></div></a>
+				</div>
+			</div>
+			<div class="footer-container footer-container-3">
+				<a href="https://www.google.com/maps/search/?api=1&query=Академіка+Андрія+Сахарова+18+Львів+79495" class="footer-item link-button" target="_blank">
+					<div class="footer-icon" id="placemarker"></div>
+					<p class="footer-text">
+						@Localizer["FooterAdress"]
+					</p>
+				</a>
+				<a href="#" class="footer-item link-button">
+					<div class="footer-icon" id="email"></div>
+					<p class="footer-text">ism.dept@lpnu.ua</p>
+				</a>
+				<div class="footer-item link-button">
+					<div class="footer-icon" id="phone"></div>
+					<p class="footer-text">
+						@Localizer["FooterPhone"]
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<a href="#">@Localizer["Copyright"]</a>
+		</div>
+	</footer>
+	<!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+	<script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="/_framework/aspnetcore-browser-refresh.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	<script src="~/_framework/blazor.server.js"></script>
+	<script src="~/js/Index.js"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

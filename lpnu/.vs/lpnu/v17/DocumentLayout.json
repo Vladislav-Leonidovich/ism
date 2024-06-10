@@ -1,0 +1,2732 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MyWorkProj\\ism\\lpnu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\accreditationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\accreditationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\accreditationprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\accreditationprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\allaccreditationprogramsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\allaccreditationprogramsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\conference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\conference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\createaccreditationprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\createaccreditationprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\createcontactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\createcontactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\createitemforstructureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\createitemforstructureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\editaccreditationprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\editaccreditationprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\educationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\educationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\educationprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\educationprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\internationalrelationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\internationalrelationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\structurepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\structurepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\structureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\structureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\universityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\universityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\structurepostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\structurepostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\professorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\professorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\educationprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\educationprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\accreditationprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\accreditationprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\istructurepostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\istructurepostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\iuniversityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\iuniversityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\iaccreditationprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\iaccreditationprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\iconferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\iconferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\ieducationprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\ieducationprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\data\\lpnucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:data\\lpnucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\controllers\\accreditationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:controllers\\accreditationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\wwwroot\\css\\authorization.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:wwwroot\\css\\authorization.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\wwwroot\\css\\education.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:wwwroot\\css\\education.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\wwwroot\\css\\reset.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:wwwroot\\css\\reset.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\wwwroot\\css\\stuff.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:wwwroot\\css\\stuff.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\create\\createitemforgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\create\\createitemforgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\create\\createitemforpartner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\create\\createitemforpartner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\create\\createitemforstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\create\\createitemforstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\create\\createitemforstructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\create\\createitemforstructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\delete\\deleteitemforgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\delete\\deleteitemforgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\delete\\deleteitemforpartner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\delete\\deleteitemforpartner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\delete\\deleteitemforstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\delete\\deleteitemforstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\delete\\deleteitemforstructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\delete\\deleteitemforstructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\edit\\edititemforstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\edit\\edititemforstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\_teacherspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\_teacherspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\programs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\programs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\programs.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\programs.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\programs.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\programs.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\internationalrelations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\internationalrelations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\phd.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\phd.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\phd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\phd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\phd.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\phd.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\bachelor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\bachelor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\partners.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\partners.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\internationalrelations.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\internationalrelations.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\internationalrelations.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\internationalrelations.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\department\\staff.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\department\\staff.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\department\\staff.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\department\\staff.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\structure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\structure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\accreditation\\otherdocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\accreditation\\otherdocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\accreditation\\accreditationprograms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\accreditation\\accreditationprograms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\accreditation\\accreditationprograms.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\accreditation\\accreditationprograms.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\accreditation\\accreditationprograms.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\accreditation\\accreditationprograms.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\accreditation\\otherdocuments.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\accreditation\\otherdocuments.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\accreditation\\accreditationdocuments.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\accreditation\\accreditationdocuments.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\accreditation\\accreditationdocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\accreditation\\accreditationdocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\accreditation\\accreditationdocuments.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\accreditation\\accreditationdocuments.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\accreditation\\otherdocuments.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\accreditation\\otherdocuments.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\master.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\master.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\master.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\master.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\bachelor.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\bachelor.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\education\\bachelor.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\education\\bachelor.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\department\\gallery.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\department\\gallery.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\department\\gallery.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\department\\gallery.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\department\\partners.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\department\\partners.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\department\\partners.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\department\\partners.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\department\\structure.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\department\\structure.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\department\\structure.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\department\\structure.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\components\\menu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:components\\menu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\components\\menu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:components\\menu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\home\\contacts.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\home\\contacts.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\home\\index.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\home\\index.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\home\\index.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\home\\index.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\home\\contacts.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\home\\contacts.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\_gallerypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\_gallerypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\shared\\_selectlanguagepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\shared\\_selectlanguagepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\shared\\_layout.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\shared\\_layout.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|E:\\MyWorkProj\\ism\\lpnu\\resources\\views\\shared\\_layout.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:resources\\views\\shared\\_layout.uk.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\home\\adminactions\\create\\createitemforcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\home\\adminactions\\create\\createitemforcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\lpnu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:lpnu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\edit\\edititemforcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\edit\\edititemforcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\delete\\deleteitemforcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\delete\\deleteitemforcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\create\\createitemforcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\create\\createitemforcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\accreditation\\adminactions\\create\\createitemforaccreditationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\accreditation\\adminactions\\create\\createitemforaccreditationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\accreditation\\adminactions\\delete\\deleteitemforaccreditationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\accreditation\\adminactions\\delete\\deleteitemforaccreditationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\edit\\edititemforstructurepost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\edit\\edititemforstructurepost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\components\\paginatedlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:components\\paginatedlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\edit\\edititemforuniversity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\edit\\edititemforuniversity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\edit\\edititemforconference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\edit\\edititemforconference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\create\\createitemforeducationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\create\\createitemforeducationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\lpnu.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:lpnu.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\implementations\\conferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\implementations\\conferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\home\\adminactions\\edit\\edititemforcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\home\\adminactions\\edit\\edititemforcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\home\\adminactions\\delete\\deleteitemforcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\home\\adminactions\\delete\\deleteitemforcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\edit\\edititemforeducationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\edit\\edititemforeducationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\delete\\deleteitemforeducationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\delete\\deleteitemforeducationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240524080639_contactnamesupd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240524080639_contactnamesupd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240523171014_changestuffnamecollectiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240523171014_changestuffnamecollectiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240523170414_contactsupdatestuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240523170414_contactsupdatestuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240523095640_updatecontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240523095640_updatecontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240523092548_contactsadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240523092548_contactsadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\lpnucontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\lpnucontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240509141203_partneradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240509141203_partneradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240507195134_addgallerypost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240507195134_addgallerypost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240522140930_internationalrelationsadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240522140930_internationalrelationsadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240505164113_initialcreateforprofessors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240505164113_initialcreateforprofessors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240507114416_addstructurepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240507114416_addstructurepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240514104159_accreditationprogramsadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240514104159_accreditationprogramsadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\lpnu\\20240522222851_recreateeducationprogramtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\lpnu\\20240522222851_recreateeducationprogramtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\create\\createitemforconference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\create\\createitemforconference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\iprofessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\iprofessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\create\\createitemforuniversity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\create\\createitemforuniversity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\delete\\deleteitemforuniversity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\delete\\deleteitemforuniversity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\education\\adminactions\\delete\\deleteitemforconference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\education\\adminactions\\delete\\deleteitemforconference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\ipartnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\ipartnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\services\\interfaces\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:services\\interfaces\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\accreditation\\adminactions\\edit\\edititemforaccreditationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\accreditation\\adminactions\\edit\\edititemforaccreditationprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\department\\adminactions\\edit\\edititemforpartner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\department\\adminactions\\edit\\edititemforpartner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\20240505104531_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\20240505104531_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\views\\account\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:views\\account\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|e:\\myworkproj\\ism\\lpnu\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0383CBD3-464A-4028-8E0C-E54A4E5F19CF}|lpnu.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateContactViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\CreateContactViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CreateContactViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\CreateContactViewModel.cs",
+              "RelativeToolTip": "Models\\CreateContactViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:19:49.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateAccreditationProgramViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\CreateAccreditationProgramViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CreateAccreditationProgramViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\CreateAccreditationProgramViewModel.cs",
+              "RelativeToolTip": "Models\\CreateAccreditationProgramViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:00:15.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:58:17.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Conference.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Conference.cs",
+              "RelativeDocumentMoniker": "Models\\Conference.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Conference.cs",
+              "RelativeToolTip": "Models\\Conference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:59:32.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AllAccreditationProgramsViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\AllAccreditationProgramsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AllAccreditationProgramsViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\AllAccreditationProgramsViewModel.cs",
+              "RelativeToolTip": "Models\\AllAccreditationProgramsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:49:01.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Company.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Models\\Company.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Company.cs",
+              "RelativeToolTip": "Models\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:49:23.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccreditationProgramViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\AccreditationProgramViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AccreditationProgramViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\AccreditationProgramViewModel.cs",
+              "RelativeToolTip": "Models\\AccreditationProgramViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:22:00.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccreditationProgram.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\AccreditationProgram.cs",
+              "RelativeDocumentMoniker": "Models\\AccreditationProgram.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\AccreditationProgram.cs",
+              "RelativeToolTip": "Models\\AccreditationProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:53:24.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:23:02.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateItemForStructureViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\CreateItemForStructureViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CreateItemForStructureViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\CreateItemForStructureViewModel.cs",
+              "RelativeToolTip": "Models\\CreateItemForStructureViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:47:43.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Document.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "Models\\Document.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Document.cs",
+              "RelativeToolTip": "Models\\Document.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:33:25.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditAccreditationProgramViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\EditAccreditationProgramViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\EditAccreditationProgramViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\EditAccreditationProgramViewModel.cs",
+              "RelativeToolTip": "Models\\EditAccreditationProgramViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:40:35.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EducationProgram.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\EducationProgram.cs",
+              "RelativeDocumentMoniker": "Models\\EducationProgram.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\EducationProgram.cs",
+              "RelativeToolTip": "Models\\EducationProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:34:31.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EducationProgramViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\EducationProgramViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\EducationProgramViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\EducationProgramViewModel.cs",
+              "RelativeToolTip": "Models\\EducationProgramViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T21:24:01.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:17:00.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InternationalRelationsViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\InternationalRelationsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\InternationalRelationsViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\InternationalRelationsViewModel.cs",
+              "RelativeToolTip": "Models\\InternationalRelationsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T12:14:28.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T20:39:46.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "Models\\PaginatedList.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\PaginatedList.cs",
+              "RelativeToolTip": "Models\\PaginatedList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T20:29:05.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Partner.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Partner.cs",
+              "RelativeDocumentMoniker": "Models\\Partner.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Partner.cs",
+              "RelativeToolTip": "Models\\Partner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:48:57.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Photo.cs",
+              "RelativeDocumentMoniker": "Models\\Photo.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Photo.cs",
+              "RelativeToolTip": "Models\\Photo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T19:11:19.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StructurePost.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\StructurePost.cs",
+              "RelativeDocumentMoniker": "Models\\StructurePost.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\StructurePost.cs",
+              "RelativeToolTip": "Models\\StructurePost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:48:18.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Professor.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Professor.cs",
+              "RelativeDocumentMoniker": "Models\\Professor.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\Professor.cs",
+              "RelativeToolTip": "Models\\Professor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:42:51.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StructureViewModel.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\StructureViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\StructureViewModel.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\StructureViewModel.cs",
+              "RelativeToolTip": "Models\\StructureViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:30:21.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "University.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Models\\University.cs",
+              "RelativeDocumentMoniker": "Models\\University.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Models\\University.cs",
+              "RelativeToolTip": "Models\\University.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:55:07.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UniversityService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\UniversityService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\UniversityService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\UniversityService.cs",
+              "RelativeToolTip": "Services\\Implementations\\UniversityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:14:22.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StructurePostService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\StructurePostService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\StructurePostService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\StructurePostService.cs",
+              "RelativeToolTip": "Services\\Implementations\\StructurePostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:58:40.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProfessorService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\ProfessorService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ProfessorService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\ProfessorService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ProfessorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T21:32:39.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PartnerService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\PartnerService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\PartnerService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\PartnerService.cs",
+              "RelativeToolTip": "Services\\Implementations\\PartnerService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:55:22.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\PhotoService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\PhotoService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\PhotoService.cs",
+              "RelativeToolTip": "Services\\Implementations\\PhotoService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T19:18:22.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EducationProgramService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\EducationProgramService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\EducationProgramService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\EducationProgramService.cs",
+              "RelativeToolTip": "Services\\Implementations\\EducationProgramService.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwEgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:43:27.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\ContactService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ContactService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\ContactService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:08:45.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\CompanyService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\CompanyService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\CompanyService.cs",
+              "RelativeToolTip": "Services\\Implementations\\CompanyService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwDgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:06:11.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AccreditationProgramService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\AccreditationProgramService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AccreditationProgramService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\AccreditationProgramService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AccreditationProgramService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAcwD4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:07:25.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IStructurePostService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IStructurePostService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IStructurePostService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IStructurePostService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IStructurePostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:58:22.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IUniversityService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IUniversityService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUniversityService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IUniversityService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUniversityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:12:16.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAccreditationProgramService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IAccreditationProgramService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAccreditationProgramService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IAccreditationProgramService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAccreditationProgramService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:06:36.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICompanyService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\ICompanyService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICompanyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:03:40.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IConferenceService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IConferenceService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IConferenceService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IConferenceService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IConferenceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:19:16.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IContactService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IContactService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IContactService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:07:08.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDocumentService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IDocumentService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDocumentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:29:04.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IEducationProgramService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IEducationProgramService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IEducationProgramService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IEducationProgramService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IEducationProgramService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:41:38.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LpnuContext.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Data\\LpnuContext.cs",
+              "RelativeDocumentMoniker": "Data\\LpnuContext.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Data\\LpnuContext.cs",
+              "RelativeToolTip": "Data\\LpnuContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:53:51.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:33:32.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:23:42.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EducationController.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\EducationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EducationController.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\EducationController.cs",
+              "RelativeToolTip": "Controllers\\EducationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUBAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:00:50.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAcwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:16:38.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AccreditationController.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\AccreditationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccreditationController.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\AccreditationController.cs",
+              "RelativeToolTip": "Controllers\\AccreditationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAO8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:41:00.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwDUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T20:28:28.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Authorization.css",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Authorization.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Authorization.css",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Authorization.css",
+              "RelativeToolTip": "wwwroot\\css\\Authorization.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T12:03:19.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Education.css",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Education.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Education.css",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Education.css",
+              "RelativeToolTip": "wwwroot\\css\\Education.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-22T14:05:22.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Home.css",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Home.css",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "wwwroot\\css\\Home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIBAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-22T13:30:21.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Menu.css",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Menu.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Menu.css",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Menu.css",
+              "RelativeToolTip": "wwwroot\\css\\Menu.css",
+              "ViewState": "AQIAAG4BAAAAAAAAAAAAADkBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-06T17:35:59.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Reset.css",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Reset.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Reset.css",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Reset.css",
+              "RelativeToolTip": "wwwroot\\css\\Reset.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-12T08:15:08.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Site.css",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Site.css",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Site.css",
+              "RelativeToolTip": "wwwroot\\css\\Site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-28T11:33:44.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Stuff.css",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Stuff.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Stuff.css",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\css\\Stuff.css",
+              "RelativeToolTip": "wwwroot\\css\\Stuff.css",
+              "ViewState": "AQIAAD0CAAAAAAAAAAAAAGkCAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T16:48:20.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CreateItemForGallery.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Create\\CreateItemForGallery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Create\\CreateItemForGallery.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Create\\CreateItemForGallery.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Create\\CreateItemForGallery.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T20:00:08.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CreateItemForPartner.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Create\\CreateItemForPartner.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Create\\CreateItemForPartner.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Create\\CreateItemForPartner.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Create\\CreateItemForPartner.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T17:21:13.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CreateItemForStructure.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Create\\CreateItemForStructure.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Create\\CreateItemForStructure.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Create\\CreateItemForStructure.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Create\\CreateItemForStructure.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T08:12:33.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CreateItemForStaff.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Create\\CreateItemForStaff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Create\\CreateItemForStaff.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Create\\CreateItemForStaff.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Create\\CreateItemForStaff.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T16:21:55.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DeleteItemForGallery.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Delete\\DeleteItemForGallery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Delete\\DeleteItemForGallery.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Delete\\DeleteItemForGallery.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Delete\\DeleteItemForGallery.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T20:04:39.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "DeleteItemForPartner.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Delete\\DeleteItemForPartner.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Delete\\DeleteItemForPartner.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Delete\\DeleteItemForPartner.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Delete\\DeleteItemForPartner.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T21:58:31.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DeleteItemForStaff.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Delete\\DeleteItemForStaff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Delete\\DeleteItemForStaff.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Delete\\DeleteItemForStaff.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Delete\\DeleteItemForStaff.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T16:22:56.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "DeleteItemForStructure.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Delete\\DeleteItemForStructure.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Delete\\DeleteItemForStructure.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Delete\\DeleteItemForStructure.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Delete\\DeleteItemForStructure.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T17:54:42.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "EditItemForStaff.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Edit\\EditItemForStaff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Edit\\EditItemForStaff.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Edit\\EditItemForStaff.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Edit\\EditItemForStaff.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T16:33:37.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "_TeachersPartial.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\_TeachersPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\_TeachersPartial.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\_TeachersPartial.cshtml",
+              "RelativeToolTip": "Views\\Department\\_TeachersPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T11:35:13.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Staff.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\Staff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Staff.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\Staff.cshtml",
+              "RelativeToolTip": "Views\\Department\\Staff.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T16:19:45.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Partners.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\Partners.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Partners.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\Partners.cshtml",
+              "RelativeToolTip": "Views\\Department\\Partners.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T17:01:38.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Programs.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Programs.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\Programs.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Programs.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\Programs.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:44:26.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Programs.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Programs.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\Programs.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Programs.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\Programs.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:43:55.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Phd.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Phd.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\Phd.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Phd.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\Phd.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:42:48.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Phd.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Phd.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\Phd.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Phd.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\Phd.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:43:04.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Programs.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\Programs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\Programs.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\Programs.cshtml",
+              "RelativeToolTip": "Views\\Education\\Programs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T12:02:58.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Master.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\Master.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\Master.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\Master.cshtml",
+              "RelativeToolTip": "Views\\Education\\Master.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T21:27:22.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Gallery.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\Gallery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Gallery.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\Gallery.cshtml",
+              "RelativeToolTip": "Views\\Department\\Gallery.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T19:27:34.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "InternationalRelations.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\InternationalRelations.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\InternationalRelations.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\InternationalRelations.cshtml",
+              "RelativeToolTip": "Views\\Education\\InternationalRelations.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T07:47:25.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Phd.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\Phd.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\Phd.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\Phd.cshtml",
+              "RelativeToolTip": "Views\\Education\\Phd.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T21:27:32.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Bachelor.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\Bachelor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\Bachelor.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\Bachelor.cshtml",
+              "RelativeToolTip": "Views\\Education\\Bachelor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T21:06:28.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Contacts.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\Contacts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contacts.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\Contacts.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contacts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T08:56:56.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "InternationalRelations.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\InternationalRelations.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\InternationalRelations.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\InternationalRelations.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\InternationalRelations.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:47:02.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "InternationalRelations.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\InternationalRelations.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\InternationalRelations.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\InternationalRelations.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\InternationalRelations.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:46:30.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Staff.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Staff.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Department\\Staff.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Staff.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Department\\Staff.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:36:26.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Staff.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Staff.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Department\\Staff.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Staff.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Department\\Staff.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:37:02.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Structure.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\Structure.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Structure.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\Structure.cshtml",
+              "RelativeToolTip": "Views\\Department\\Structure.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T11:21:52.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "OtherDocuments.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\OtherDocuments.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\OtherDocuments.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\OtherDocuments.cshtml",
+              "RelativeToolTip": "Views\\Accreditation\\OtherDocuments.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T09:17:34.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "AccreditationPrograms.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AccreditationPrograms.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\AccreditationPrograms.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AccreditationPrograms.cshtml",
+              "RelativeToolTip": "Views\\Accreditation\\AccreditationPrograms.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T09:16:38.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "AccreditationPrograms.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\AccreditationPrograms.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Accreditation\\AccreditationPrograms.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\AccreditationPrograms.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Accreditation\\AccreditationPrograms.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:52:29.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "AccreditationPrograms.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\AccreditationPrograms.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Accreditation\\AccreditationPrograms.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\AccreditationPrograms.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Accreditation\\AccreditationPrograms.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:53:44.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "OtherDocuments.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\OtherDocuments.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Accreditation\\OtherDocuments.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\OtherDocuments.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Accreditation\\OtherDocuments.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:55:04.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "AccreditationDocuments.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\AccreditationDocuments.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Accreditation\\AccreditationDocuments.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\AccreditationDocuments.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Accreditation\\AccreditationDocuments.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:56:57.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "AccreditationDocuments.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AccreditationDocuments.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\AccreditationDocuments.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AccreditationDocuments.cshtml",
+              "RelativeToolTip": "Views\\Accreditation\\AccreditationDocuments.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T09:18:12.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "AccreditationDocuments.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\AccreditationDocuments.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Accreditation\\AccreditationDocuments.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\AccreditationDocuments.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Accreditation\\AccreditationDocuments.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:55:52.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "OtherDocuments.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\OtherDocuments.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Accreditation\\OtherDocuments.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Accreditation\\OtherDocuments.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Accreditation\\OtherDocuments.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:55:26.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Master.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Master.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\Master.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Master.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\Master.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:41:38.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Master.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Master.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\Master.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Master.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\Master.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:42:06.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Bachelor.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Bachelor.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\Bachelor.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Bachelor.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\Bachelor.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:40:47.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Bachelor.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Bachelor.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Education\\Bachelor.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Education\\Bachelor.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Education\\Bachelor.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:40:07.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Gallery.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Gallery.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Department\\Gallery.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Gallery.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Department\\Gallery.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:39:16.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Gallery.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Gallery.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Department\\Gallery.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Gallery.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Department\\Gallery.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:38:52.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Partners.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Partners.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Department\\Partners.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Partners.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Department\\Partners.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:38:13.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Partners.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Partners.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Department\\Partners.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Partners.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Department\\Partners.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:37:40.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Structure.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Structure.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Department\\Structure.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Structure.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Department\\Structure.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:35:24.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Structure.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Structure.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Department\\Structure.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Department\\Structure.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Department\\Structure.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:34:28.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T18:52:16.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Menu.razor",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Components\\Menu.razor",
+              "RelativeDocumentMoniker": "Components\\Menu.razor",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Components\\Menu.razor",
+              "RelativeToolTip": "Components\\Menu.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T10:58:33.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T08:33:37.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Menu.razor.css",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Components\\Menu.razor.css",
+              "RelativeDocumentMoniker": "Components\\Menu.razor.css",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Components\\Menu.razor.css",
+              "RelativeToolTip": "Components\\Menu.razor.css",
+              "ViewState": "AQIAACMBAAAAAAAAAAAAADQBAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-21T14:51:39.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Contacts.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Home\\Contacts.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Home\\Contacts.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Home\\Contacts.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Home\\Contacts.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:15:56.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "Index.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Home\\Index.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Home\\Index.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Home\\Index.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Home\\Index.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-06T08:27:51.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Index.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Home\\Index.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Home\\Index.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Home\\Index.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Home\\Index.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-06T08:55:12.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-13T15:33:29.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "Contacts.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Home\\Contacts.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Home\\Contacts.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Home\\Contacts.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Home\\Contacts.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T14:12:54.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "_GalleryPartial.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\_GalleryPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\_GalleryPartial.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\_GalleryPartial.cshtml",
+              "RelativeToolTip": "Views\\Department\\_GalleryPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T19:30:07.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "_SelectLanguagePartial.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\_SelectLanguagePartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_SelectLanguagePartial.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\_SelectLanguagePartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_SelectLanguagePartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T10:48:02.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "site.js",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-22T13:55:21.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T08:28:34.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "_Layout.en.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Shared\\_Layout.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Shared\\_Layout.en.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Shared\\_Layout.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Shared\\_Layout.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T13:11:43.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "_Layout.uk.resx",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Shared\\_Layout.uk.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Shared\\_Layout.uk.resx",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Resources\\Views\\Shared\\_Layout.uk.resx",
+              "RelativeToolTip": "Resources\\Views\\Shared\\_Layout.uk.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-09T13:07:49.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T08:09:15.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T08:28:31.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T13:59:15.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T13:59:16.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "CreateItemForContact.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\AdminActions\\Create\\CreateItemForContact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AdminActions\\Create\\CreateItemForContact.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\AdminActions\\Create\\CreateItemForContact.cshtml",
+              "RelativeToolTip": "Views\\Home\\AdminActions\\Create\\CreateItemForContact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T09:39:41.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "EditItemForCompany.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Edit\\EditItemForCompany.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Edit\\EditItemForCompany.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Edit\\EditItemForCompany.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Edit\\EditItemForCompany.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T15:54:52.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "DeleteItemForCompany.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Delete\\DeleteItemForCompany.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Delete\\DeleteItemForCompany.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Delete\\DeleteItemForCompany.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Delete\\DeleteItemForCompany.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T15:43:41.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "CreateItemForCompany.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Create\\CreateItemForCompany.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Create\\CreateItemForCompany.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Create\\CreateItemForCompany.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Create\\CreateItemForCompany.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T13:55:11.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "CreateItemForAccreditationProgram.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AdminActions\\Create\\CreateItemForAccreditationProgram.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\AdminActions\\Create\\CreateItemForAccreditationProgram.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AdminActions\\Create\\CreateItemForAccreditationProgram.cshtml",
+              "RelativeToolTip": "Views\\Accreditation\\AdminActions\\Create\\CreateItemForAccreditationProgram.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T09:37:01.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "DeleteItemForAccreditationProgram.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AdminActions\\Delete\\DeleteItemForAccreditationProgram.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\AdminActions\\Delete\\DeleteItemForAccreditationProgram.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AdminActions\\Delete\\DeleteItemForAccreditationProgram.cshtml",
+              "RelativeToolTip": "Views\\Accreditation\\AdminActions\\Delete\\DeleteItemForAccreditationProgram.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T14:59:36.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "EditItemForStructurePost.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Edit\\EditItemForStructurePost.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Edit\\EditItemForStructurePost.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Edit\\EditItemForStructurePost.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Edit\\EditItemForStructurePost.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T21:43:48.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "PaginatedList.razor",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Components\\PaginatedList.razor",
+              "RelativeDocumentMoniker": "Components\\PaginatedList.razor",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Components\\PaginatedList.razor",
+              "RelativeToolTip": "Components\\PaginatedList.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T21:13:35.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "EditItemForUniversity.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Edit\\EditItemForUniversity.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Edit\\EditItemForUniversity.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Edit\\EditItemForUniversity.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Edit\\EditItemForUniversity.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T15:56:50.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "EditItemForConference.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Edit\\EditItemForConference.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Edit\\EditItemForConference.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Edit\\EditItemForConference.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Edit\\EditItemForConference.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T15:57:54.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "CreateItemForEducationProgram.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Create\\CreateItemForEducationProgram.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Create\\CreateItemForEducationProgram.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Create\\CreateItemForEducationProgram.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Create\\CreateItemForEducationProgram.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T21:35:41.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "lpnu.csproj",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\lpnu.csproj",
+              "RelativeDocumentMoniker": "lpnu.csproj",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\lpnu.csproj",
+              "RelativeToolTip": "lpnu.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-05T13:56:03.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T14:55:44.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\DocumentService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\DocumentService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\DocumentService.cs",
+              "RelativeToolTip": "Services\\Implementations\\DocumentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:33:05.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "lpnu",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\lpnu.csproj",
+              "RelativeDocumentMoniker": "lpnu.csproj",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\lpnu.csproj",
+              "RelativeToolTip": "lpnu.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-04T20:51:44.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "ConferenceService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\ConferenceService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ConferenceService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Implementations\\ConferenceService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ConferenceService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:20:47.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "EditItemForContact.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\AdminActions\\Edit\\EditItemForContact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AdminActions\\Edit\\EditItemForContact.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\AdminActions\\Edit\\EditItemForContact.cshtml",
+              "RelativeToolTip": "Views\\Home\\AdminActions\\Edit\\EditItemForContact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T08:26:43.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "DeleteItemForContact.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\AdminActions\\Delete\\DeleteItemForContact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AdminActions\\Delete\\DeleteItemForContact.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Home\\AdminActions\\Delete\\DeleteItemForContact.cshtml",
+              "RelativeToolTip": "Views\\Home\\AdminActions\\Delete\\DeleteItemForContact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T08:23:28.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 139,
+              "Title": "EditItemForEducationProgram.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Edit\\EditItemForEducationProgram.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Edit\\EditItemForEducationProgram.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Edit\\EditItemForEducationProgram.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Edit\\EditItemForEducationProgram.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T08:03:02.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 140,
+              "Title": "DeleteItemForEducationProgram.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Delete\\DeleteItemForEducationProgram.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Delete\\DeleteItemForEducationProgram.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Delete\\DeleteItemForEducationProgram.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Delete\\DeleteItemForEducationProgram.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T21:39:40.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 141,
+              "Title": "20240524080639_ContactNamesUpd.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240524080639_ContactNamesUpd.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240524080639_ContactNamesUpd.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240524080639_ContactNamesUpd.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240524080639_ContactNamesUpd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:06:46.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 142,
+              "Title": "20240523171014_ChangeStuffNameCollectionType.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240523171014_ChangeStuffNameCollectionType.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240523171014_ChangeStuffNameCollectionType.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240523171014_ChangeStuffNameCollectionType.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240523171014_ChangeStuffNameCollectionType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:10:17.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 143,
+              "Title": "20240523170414_ContactsUpdateStuff.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240523170414_ContactsUpdateStuff.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240523170414_ContactsUpdateStuff.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240523170414_ContactsUpdateStuff.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240523170414_ContactsUpdateStuff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:04:18.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 144,
+              "Title": "20240523095640_UpdateContacts.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240523095640_UpdateContacts.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240523095640_UpdateContacts.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240523095640_UpdateContacts.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240523095640_UpdateContacts.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:28:34.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 145,
+              "Title": "20240523092548_ContactsAdd.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240523092548_ContactsAdd.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240523092548_ContactsAdd.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240523092548_ContactsAdd.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240523092548_ContactsAdd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:28:50.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 146,
+              "Title": "LpnuContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\LpnuContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\LpnuContextModelSnapshot.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\LpnuContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\LpnuContextModelSnapshot.cs",
+              "ViewState": "AQIAAE0BAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:30:10.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 147,
+              "Title": "20240509141203_PartnerAdd.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240509141203_PartnerAdd.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240509141203_PartnerAdd.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240509141203_PartnerAdd.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240509141203_PartnerAdd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:09:34.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 148,
+              "Title": "20240507195134_AddGalleryPost.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240507195134_AddGalleryPost.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240507195134_AddGalleryPost.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240507195134_AddGalleryPost.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240507195134_AddGalleryPost.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T11:28:42.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 149,
+              "Title": "20240522140930_InternationalRelationsAdd.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240522140930_InternationalRelationsAdd.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240522140930_InternationalRelationsAdd.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240522140930_InternationalRelationsAdd.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240522140930_InternationalRelationsAdd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:29:30.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 150,
+              "Title": "20240505164113_InitialCreateForProfessors.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240505164113_InitialCreateForProfessors.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240505164113_InitialCreateForProfessors.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240505164113_InitialCreateForProfessors.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240505164113_InitialCreateForProfessors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T22:35:30.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 151,
+              "Title": "20240507114416_AddStructurePost.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240507114416_AddStructurePost.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240507114416_AddStructurePost.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240507114416_AddStructurePost.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240507114416_AddStructurePost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T22:35:33.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 152,
+              "Title": "20240514104159_AccreditationProgramsAdd.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240514104159_AccreditationProgramsAdd.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240514104159_AccreditationProgramsAdd.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240514104159_AccreditationProgramsAdd.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240514104159_AccreditationProgramsAdd.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:18:49.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 153,
+              "Title": "20240522222851_RecreateEducationProgramTable.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240522222851_RecreateEducationProgramTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\Lpnu\\20240522222851_RecreateEducationProgramTable.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\Lpnu\\20240522222851_RecreateEducationProgramTable.cs",
+              "RelativeToolTip": "Migrations\\Lpnu\\20240522222851_RecreateEducationProgramTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:28:53.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 154,
+              "Title": "CreateItemForConference.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Create\\CreateItemForConference.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Create\\CreateItemForConference.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Create\\CreateItemForConference.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Create\\CreateItemForConference.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T13:56:05.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 155,
+              "Title": "IProfessorService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IProfessorService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IProfessorService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IProfessorService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IProfessorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T21:31:50.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 156,
+              "Title": "CreateItemForUniversity.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Create\\CreateItemForUniversity.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Create\\CreateItemForUniversity.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Create\\CreateItemForUniversity.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Create\\CreateItemForUniversity.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T13:55:44.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 157,
+              "Title": "DeleteItemForUniversity.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Delete\\DeleteItemForUniversity.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Delete\\DeleteItemForUniversity.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Delete\\DeleteItemForUniversity.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Delete\\DeleteItemForUniversity.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T15:45:35.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 158,
+              "Title": "DeleteItemForConference.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Delete\\DeleteItemForConference.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\AdminActions\\Delete\\DeleteItemForConference.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Education\\AdminActions\\Delete\\DeleteItemForConference.cshtml",
+              "RelativeToolTip": "Views\\Education\\AdminActions\\Delete\\DeleteItemForConference.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T15:46:25.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 159,
+              "Title": "IPartnerService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IPartnerService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPartnerService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IPartnerService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPartnerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:54:02.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 160,
+              "Title": "IPhotoService.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IPhotoService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPhotoService.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Services\\Interfaces\\IPhotoService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPhotoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T19:17:06.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 161,
+              "Title": "EditItemForAccreditationProgram.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AdminActions\\Edit\\EditItemForAccreditationProgram.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\AdminActions\\Edit\\EditItemForAccreditationProgram.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Accreditation\\AdminActions\\Edit\\EditItemForAccreditationProgram.cshtml",
+              "RelativeToolTip": "Views\\Accreditation\\AdminActions\\Edit\\EditItemForAccreditationProgram.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T15:08:23.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 162,
+              "Title": "EditItemForPartner.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Edit\\EditItemForPartner.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\AdminActions\\Edit\\EditItemForPartner.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Department\\AdminActions\\Edit\\EditItemForPartner.cshtml",
+              "RelativeToolTip": "Views\\Department\\AdminActions\\Edit\\EditItemForPartner.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T17:53:23.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 163,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-13T17:35:15.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 164,
+              "Title": "20240505104531_InitialCreate.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\20240505104531_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240505104531_InitialCreate.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\20240505104531_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240505104531_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T11:05:22.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 165,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T20:29:51.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 166,
+              "Title": "DeleteUser.cshtml",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Account\\DeleteUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\DeleteUser.cshtml",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Views\\Account\\DeleteUser.cshtml",
+              "RelativeToolTip": "Views\\Account\\DeleteUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T12:27:32.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 167,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\MyWorkProj\\ism\\lpnu\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:32:39.081Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

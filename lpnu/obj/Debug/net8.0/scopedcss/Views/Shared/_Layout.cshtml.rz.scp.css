@@ -1,0 +1,230 @@
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+*[b-7j5q45xy0y] {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.cuprum-<uniquifier[b-7j5q45xy0y] > {
+    font-family: "Cuprum", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.site-container[b-7j5q45xy0y] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Мінімальна висота дорівнює висоті видимої частини екрана */
+}
+
+body[b-7j5q45xy0y] {
+    display: flex;
+    justify-content: center;
+}
+
+button[b-7j5q45xy0y] {
+    background: none; /* Видаляємо фоновий колір */
+    color: inherit; /* Колір тексту успадковується від батьківського елемента */
+    border: none; /* Видаляємо рамку */
+    padding: 0; /* Видаляємо внутрішні відступи */
+    margin: 0; /* Видаляємо зовнішні відступи */
+    font: inherit; /* Шрифт успадковується від батьківського елемента */
+    text-align: inherit; /* Вирівнювання тексту успадковується від батьківського елемента */
+    cursor: pointer; /* Курсор у вигляді вказівника, що показує, що це інтерактивний елемент */
+    -webkit-appearance: none; /* Видаляємо стандартне оформлення в Webkit-браузерах */
+    -moz-appearance: none; /* Видаляємо стандартне оформлення в Firefox */
+    appearance: none; /* Скидаємо стандартне оформлення для інших браузерів */
+}
+
+.main-content[b-7j5q45xy0y] {
+    transition: margin-top 0.3s ease;
+    flex: 1; /* Контент займає весь доступний простір */
+}
+
+    .main-content.menu-open[b-7j5q45xy0y] {
+        margin-top: 234px;
+    }
+
+@media only screen and (max-width: 600px) {
+    .main-content.menu-open[b-7j5q45xy0y] {
+        margin-top: 549px; 
+    }
+}
+.footer[b-7j5q45xy0y] {
+    margin-top: auto; /* Автоматичний відступ зверху */
+    width: 100%;
+    white-space: nowrap;
+    line-height: 1.5;
+    background-color: #221F1F;
+}
+
+    .footer > .wrapper[b-7j5q45xy0y] {
+        padding: 3em 0em;
+    }
+
+.footer-grid[b-7j5q45xy0y] {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+.footer-container[b-7j5q45xy0y] {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-row-gap: 1em;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.footer-container-1[b-7j5q45xy0y] {
+}
+
+    .footer-container-1 > img[b-7j5q45xy0y] {
+        max-width: 120px;
+    }
+
+.footer-container-2[b-7j5q45xy0y] {
+}
+
+    .footer-container-2 > .footer-item[b-7j5q45xy0y] {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 2em;
+    }
+
+.footer-container-3[b-7j5q45xy0y] {
+    justify-items: flex-start;
+}
+
+    .footer-container-3 > .footer-item[b-7j5q45xy0y] {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-column-gap: 1em;
+        align-items: center;
+    }
+
+    .footer-container-3 > .footer-item > .footer-text[b-7j5q45xy0y]{
+        text-align: left;
+    }
+
+.footer-text[b-7j5q45xy0y] {
+    text-align: center;
+    color: #D9D9D9;
+    transition: color 0.3s;
+}
+
+.footer-icon[b-7j5q45xy0y] {
+    width: 40px; /* Задайте бажані розміри */
+    height: 40px;
+    background-size: contain; /* Покриває весь елемент, зберігаючи пропорції */
+    background-repeat: no-repeat;
+    transition: background-image 0.3s; /* Плавна зміна зображень */
+}
+
+#logo[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/LogoWhite.png');
+    width: 250px;
+    height: 150px;
+}
+
+    #logo:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/WhiteLogoHover.png'); /* Шлях до зображення логотипу при наведенні */
+    }
+
+#telegram[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Telegram.png');
+}
+
+    #telegram:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/TelegramHover.png');
+    }
+
+#instagram[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Instagram.png');
+}
+
+    #instagram:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/InstagramHover.png');
+    }
+
+#facebook[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Facebook.png');
+}
+
+    #facebook:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/FacebookHover.png');
+    }
+
+#linkedin[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/LinkedIn.png');
+}
+
+    #linkedin:hover[b-7j5q45xy0y] {
+        background-image: url('/img/layoutIcons/LinkedInHover.png');
+    }
+
+.footer-item:hover .footer-text[b-7j5q45xy0y] {
+    color: #FFC65A;
+}
+
+#placemarker[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/PlaceMarker.png');
+}
+
+.footer-item:hover #placemarker[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/PlaceMarkerHover.png');
+}
+
+#email[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Email.png');
+}
+
+.footer-item:hover #email[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/EmailHover.png');
+}
+
+#phone[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/Phone.png');
+}
+
+.footer-item:hover #phone[b-7j5q45xy0y] {
+    background-image: url('/img/layoutIcons/PhoneHover.png');
+}
+
+.copyright[b-7j5q45xy0y] {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+    padding-bottom: 1em;
+    margin: 0 auto;
+}
+
+    .copyright > a[b-7j5q45xy0y] {
+        text-align: center;
+        color: #FFC65A;
+        white-space: normal;
+    }
+
+@media only screen and (max-width: 769px) {
+    .footer-grid[b-7j5q45xy0y] {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 0em;
+        grid-row-gap: 4em;
+        justify-content: center;
+    }
+
+    .footer-container-3[b-7j5q45xy0y] {
+        justify-items: center;
+    }
+
+        .footer-container-3 > .footer-item > .footer-text[b-7j5q45xy0y] {
+            text-align: center;
+        }
+}

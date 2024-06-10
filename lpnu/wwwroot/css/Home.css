@@ -1,0 +1,693 @@
+﻿@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+:root {
+    --main-bg-color-1: #ffc659;
+    --main-bg-color-2: #221f1f;
+    --main-bg-color-3: white;
+    --main-bg-color-4: #9bbb57;
+    --main-font-standard-1: #000000;
+}
+.main-content-block {
+    background-image: url(/img/IndexIcons/IMG_9706.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    align-items: center; /* Центрування по вертикалі */
+    justify-content: flex-start;
+    padding: 2.1em; /* Відступ зліва */
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 621px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    h1 {
+        font-size: 2em;
+    }
+    .main-content-block {
+        padding: 1em;
+    }
+}
+
+.title-text-container {
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #90B446 0%, #99B766 29%, #FFC65A 67%, #FED68B 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    text-shadow: -5px -5px 0px #FFFAFA;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: -20vh;
+    position: relative;
+    z-index: 10;
+}
+
+.card-1, .card-2,
+.card-3, .card-4 {
+    position: relative;
+    width: 100.1%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2em;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+    .card-1::after, .card-2::after, .card-3::after, .card-4::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        clip-path: inherit; /* успадковує clip-path від батьківського елемента */
+        transition: background-color 1s ease;
+    }
+
+.card-1 {
+    background-image: url(/img/IndexIcons/photo_2024-02-28_14-23-45.jpg);
+    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
+}
+
+    .card-1.fully-visible::after {
+        background-color: rgba(37, 75, 11, 0.65);
+        z-index: 1;
+    }
+
+    .card-1.partially-visible::after {
+        background-color: rgba(37, 75, 11, 1);
+        z-index: 10;
+    }
+
+.card-2 {
+    background-image: url(/img/IndexIcons/pexels-photo-693859.jpeg);
+    clip-path: polygon(0 7%, 100% 14%, 100% 100%, 0% 100%);
+}
+
+    .card-2.fully-visible::after {
+        background-color: rgba(118, 148, 56, 0.65);
+        z-index: 1;
+    }
+
+    .card-2.partially-visible::after {
+        background-color: rgba(118, 148, 56, 1);
+        z-index: 10;
+    }
+
+.card-3 {
+    background-image: url(/img/IndexIcons/photo_2024-02-28_14-18-32.jpg);
+    clip-path: polygon(0 14%, 100% 21%, 100% 100%, 0% 100%);
+}
+
+    .card-3.fully-visible::after {
+        background-color: rgba(144, 180, 70, 0.65);
+        z-index: 1;
+    }
+
+    .card-3.partially-visible::after {
+        background-color: rgba(144, 180, 70, 1);
+        z-index: 10;
+    }
+
+.card-4 {
+    background-image: url(/img/IndexIcons/pexels-photo-1181675.jpeg);
+    clip-path: polygon(0 21%, 100% 7%, 100% 100%, 0% 100%);
+}
+
+    .card-4.fully-visible::after {
+        background-color: rgba(114, 149, 91, 0.65);
+        z-index: 1;
+    }
+
+    .card-4.partially-visible::after {
+        background-color: rgba(114, 149, 91, 1);
+        z-index: 10;
+    }
+
+@media only screen and (max-width: 845px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -20vh;
+        position: relative;
+        z-index: 10;
+    }
+
+    .card-1 {
+        background-image: url(/img/IndexIcons/photo_2024-02-28_14-23-45.jpg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    }
+
+    .card-2 {
+        background-image: url(/img/IndexIcons/pexels-photo-693859.jpeg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        margin-top: -5vh;
+    }
+
+    .card-3 {
+        background-image: url(/img/IndexIcons/photo_2024-02-28_14-18-32.jpg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        margin-top: -5vh;
+    }
+    .card-4 {
+        background-image: url(/img/IndexIcons/pexels-photo-1181675.jpeg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+        margin-top: -5vh;
+    }
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.3em;
+}
+
+.card-icon, .card-text, .more-btn {
+    position: relative;
+    z-index: 2;
+}
+
+.card-icon {
+    height: 45px;
+    width: 45px;
+}
+
+.card-text {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.line {
+    height: 2em;
+    max-width: auto;
+    background-color: #FFC65A;
+}
+
+.history-section {
+    background-color: #FAF7ED;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center; /* центруємо вміст по горизонталі */
+    align-items: center; /* центруємо вміст по вертикалі */
+}
+
+    .main-section .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        gap: 3em;
+    }
+
+.content-title {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    max-width: max-content;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 4px 0px #FFC65A;
+    background-color: #FFFFFF;
+    color: black;
+    border: 0;
+    border-radius: 1em;
+    padding: 15px 35px;
+    z-index: 2;
+    text-align: center;
+}
+
+content-title-icon {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.content-img-text {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 10em;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 3em;
+}
+
+.content-img {
+    box-shadow: -10px -10px 0px 5px #FFC65A, 10px 10px 0px 5px #99B766;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 25em;
+    z-index: 2;
+}
+
+.block-card {
+    position: relative;
+    display: grid;
+    max-width: 20em;
+    height: max-content;
+    border-radius: 1em;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px #FFC65A;
+    margin-top: 10em;
+    align-items: center;
+    z-index: 2;
+}
+
+    .block-card::before {
+        content: ''; /* Псевдоелементи вимагають властивості content */
+        position: absolute; /* Абсолютне позиціонування відносно .block-card */
+        left: 0; /* Вирівнювання по лівому краю */
+        top: 0; /* Вирівнювання по верхньому краю */
+        bottom: 0; /* Вирівнювання по нижньому краю */
+        width: 20px; /* Ширина лінії */
+        background-color: #FFC65A;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+    }
+
+    .block-card .icon-info {
+        width: 80px;
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+        color: blueviolet;
+        border-radius: 50%;
+        background-color: #5686e1;
+        position: absolute;
+        top: 0; /* Зміщення вгору на 50% висоти .block-card */
+        right: 0; /* Притискаємо до правого краю .block-card */
+        transform: translate(50%, -50%); /* Зміщення для центрування .icon-info */
+        box-shadow: 4px 4px 4px 0px #FFC65A;
+    }
+
+    .block-card .more-btn {
+        box-shadow: inset 0 0.0625em 0 0 #f4f4f4, 0 0.0625em 0 0 #efefef, 0 0.125em 0 0 #ececec, 0 0.25em 0 0 #e0e0e0, 0 0.3125em 0 0 #dedede, 0 0.375em 0 0 #dcdcdc, 0 0.425em 0 0 #BDEA61, 0 0.425em 0.5em 0 #BDEA61;
+        justify-self: flex-end;
+        margin: 1em;
+    }
+        .block-card .more-btn:hover {
+            box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef, 0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede, 0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #FFC65A, 0 0.225em 0.375em 0 #FFC65A;
+        }
+
+        .block-card .more-btn:active {
+            box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef, 0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede, 0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #FFC65A, 0 0.225em 0.375em 0 #FFC65A;
+        }
+
+        .block-card .icon-info img {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+        }
+
+    .block-card .block-card-text {
+        padding: 1em;
+        padding-left: 2.5em;
+        padding-bottom: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .block-card .block-card-text-struct {
+        padding: 1em;
+        padding-left: 1.5em;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+    }
+
+@media only screen and (max-width: 1200px) {
+    .content-img-text {
+        gap: 5em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .content-img-text {
+        gap: 2em;
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .content-img-text {
+        gap: 2em;
+    }
+
+    .content-img-text {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 5em;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .block-card {
+        position: relative;
+        display: grid;
+        max-width: 20em;
+        height: max-content;
+        border-radius: 1em;
+        color: black;
+        background-color: white;
+        box-shadow: 0px 4px 4px 0px #FFC65A;
+        margin-top: 0em;
+        align-items: center;
+    }
+}
+
+.science-section {
+    background-color: rgba(255, 234, 194, 1);
+    position: relative;
+    z-index: 1;
+    border-top: 2px solid #99B766;
+    border-bottom: 2px solid #99B766;
+}
+
+    .science-section::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url(/img/IndexIcons/Upscales.ai_1711633045965.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+    .science-section .block-card {
+        margin-top: 0em;
+        max-width: 25em;
+    }
+
+    .science-section .block-card::before {
+        background-color: #99B766;
+    }
+
+    .science-section .content-img {
+        box-shadow: -10px -10px 0px 5px #99B766, 10px 10px 0px 5px #FFC65A;
+        margin-top: 10em;
+    }
+
+@media only screen and (max-width: 845px) {
+    .science-section .content-img {
+        margin-top: 0em;
+    }
+}
+
+/*Структура*/
+
+.employees-section {
+    background-color: #FAF7ED;
+}
+
+    .employees-section .content-img {
+        box-shadow: -10px -10px 0px 5px #99B766, 25px 25px 0px 5px #FFC65A;
+        border-radius: 50%;
+        max-width: 20em;
+    }
+
+.employees-icon-group {
+    position: relative;
+    height: 90px;
+    margin-top: 1em;
+}
+
+.employees-icon {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+}
+
+.icon-back {
+    left: 50%; /* Позиціонування щодо лівого боку контейнера */
+    transform: translateX(-50%); /* Зміщення вліво на 50% ширини іконки */
+    z-index: 1;
+}
+
+.icon-front {
+    left: 50%; /* Позиціонування щодо лівого боку контейнера */
+    transform: translateX(-50%) translateX(20px); /* Зміщення вліво на 50% ширини іконки і вправо на 20px */
+    z-index: 2; /* Це значення має бути вищим, ніж у .icon-back */
+}
+
+/*Освітні програми*/
+
+.education-section {
+    background-image: url(/img/IndexIcons/photo_2024-02-29_15-53-08.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+    .education-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.2); /* Тут можна задати рівень прозорості фону */
+        pointer-events: none; /* Щоб кліки проходили крізь псевдоелемент */
+    }
+
+.education-section .wrapper {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.education-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.education-card {
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
+    max-width: 350px;
+    height: contain;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1em;
+    justify-items: center;
+    align-items: start;
+    padding: 2em;
+    opacity: 0.9;
+    grid-row-gap: 2em;
+}
+
+.education-card-1 {
+    background-color: #97B55A;
+}
+
+.education-card-2 {
+    background-color: #90B446;
+}
+
+.education-card-3 {
+    background-color: #FED68B;
+}
+
+.education-card-icon {
+    width: 90px;
+    height: 90px;
+}
+
+.education-card-title {
+    font-size: 32px;
+}
+
+.education-card-subtitle {
+    align-self: flex-start;
+}
+
+.education-card-title, .education-card-icon, .education-card-subtitle {
+    grid-column: 1 / -1; /* Розтягування елементів на всю ширину картки */
+}
+
+.education-card-title, .education-card-subtitle {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.more-line-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.more-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-inline-size: max-content;
+    gap: 1em;
+    margin-right: 2em;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.member {
+    text-align: center;
+}
+
+    .member img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .member p {
+        margin: 5px 0;
+    }
+
+.styled-table-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1em;
+    box-shadow: 0 0 0 0.1em var(--main-bg-color-4);
+    margin: 25px 0;
+    display: inline-block;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1em;
+    min-width: 400px;
+    color: var(--main-font-standard-1);
+}
+
+    .styled-table thead {
+        background-color: var(--main-bg-color-4);
+        color: var(--main-bg-color-3)
+    }
+
+
+    .styled-table th,
+    .styled-table td {
+        vertical-align: middle;
+        padding: 12px 15px;
+        border: 0.1em solid var(--main-bg-color-4);
+        text-align: center;
+    }
+
+.audience-box,
+.employees-box {
+    text-align: left;
+    padding: 0.5em;
+}
+
+#nameList {
+    color: var(--main-font-standard-1);
+}
+
+.location-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    color: var(--main-font-standard-1);
+}
+
+.location-group p {
+    margin: 1em;
+}
